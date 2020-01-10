@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cañada del Sol</title>
+
+    <!--- Bootstrap CSS --->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--- Global Custom CSS --->
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <!--- Custom CSS for this page --->
+    <link rel="stylesheet" href="../styles/cabanas.css">
+
+    <!--- Favicon --->
+    <link rel="shortcut icon" type="image/png" href="../imgs/logo.png"/>
+    
+</head>
+<body>
+    <header>
+        <!--- Menu Mobile --->
+        <div class="collapse d-lg-none" id="menuList">
+            <div><h4><a href="../index.html">Inicio</a></h4></div>
+            <div><h4><a href="camping.html">Camping</a></h4></div>
+            <div><h4 class="active"><a href="cabanas.html">Cabañas</a></h4></div>
+            <div><h4><a href="lagranja.html">La Granja</a></h4></div>
+            <div><h4><a href="info.html">Información</a></h4></div>
+            <div><h4><a href="galeria.html">Galería</a></h4></div>
+            <div><h4><a href="../index.html#Contact">Contacto</a></h4></div>
+        </div>
+
+        <!--- Navbar Large Devices --->
+        <nav class="navbar navbar-expand-lg" id="mainNav">
+            <a class="navbar-brand" href="#" id="logoNav">
+                <img src="../icons/logo.svg" alt="logoCañadaDelSol">
+            </a>
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navMenus">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="camping.html">Camping</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cabanas.html">Cabañas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lagranja.html">La Granja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#Contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navLanguages">
+                <a class="nav-link" href="../ing/templates/cabanas.html"><img src="../icons/bandera_usa.svg"></a>
+            </div>
+            
+            <!--- Toogler Mobile Menu --->
+            <div class="blankFlex d-lg-none"></div>
+            <button class="navbar-toggler d-lg-none" id="hamburguerMenu" type="button" data-toggle="collapse" data-target="#menuList" aria-controls="menuList" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--- Icon Gift Fixed --->
+            <a  href="./promociones.html" id="promIcon"><img src="../icons/regalo.svg"></a>
+        </nav>
+    </header>
+
+    <div id="floatingItems">
+        <!--- Floating Language --->
+        <!--- Floating Social Sidebar --->
+        <div class="sidebarSocial">
+            <div class="sidebarItem"><a href="https://www.facebook.com/CanadadelSol/?ref=br_rs" target="_blank"><img src="../icons/fb.svg"></a></div>
+            <div class="sidebarItem"><a href="https://www.instagram.com/explore/locations/248431923/canada-del-sol/" target="_blank"><img src="../icons/ig.svg"></a></div>
+            <div id="shareButton" class="sidebarItem"><img src="../icons/share.svg"></div>
+            <div class="sidebarItem"><a href="tel:+526641294242"><img src="../icons/call.svg"></a></div>
+        </div>
+    </div>
+
+    <div class="container-fluid margenCabañas containerMargin" id="fondoCabana">
+        <div class="row">
+            <a class="tamanoBandera" id="ocultar" href="../ing/templates/cabanas.html"><img class="posicionBandera" src="../icons/bandera_usa.svg"></a>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                <div class="row">
+                    <!--- Titulo --->
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 logCabana" id="logCabana">
+                        <img  src="../icons/Bt_cabana.svg" alt="logocabana"/>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 padCabana">
+                        <h1 class='cabana'>CABAÑAS</h1>
+                    </div>
+                    <!--- Fin Titulo --->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 padInferiorCaja">
+                        <a href="Cabana_CampoVerde.html"> 
+                            <div class="tamTituloCaja colorTituloCafe estiloText">Cabañas Campo Verde</div>
+                            <div class="tamImgCaja img1"></div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 padInferiorCaja">
+                        <a href="Cabana_Romance.html">
+                            <div class="tamTituloCaja colorTituloAmarillo estiloText">Cabañas Romance</div>
+                            <div class="tamImgCaja img2"></div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 padInferiorCaja">
+                        <a href="Cabana_LosRigos.html">
+                            <div class="tamTituloCaja colorTituloNaranja estiloText">Cabaña Los Rigos</div>
+                            <div class="tamImgCaja img3"></div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 padInferiorCaja">
+                        <a href="Cabana_LasLilis.html">
+                            <div class="tamTituloCaja colorTituloVerde estiloText">Cabaña Las Lilis</div>
+                            <div class="tamImgCaja img4"></div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 padInferiorCaja">
+                        <a href="Cabana_LaMachis.html">
+                            <div class="tamTituloCaja colorTituloCafe estiloText">Cabaña La Machis</div>
+                            <div class="tamImgCaja img5"></div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 padInferiorCaja">
+                        <a href="Cabana_CasaClub.html">
+                            <div class="tamTituloCaja colorTituloAmarillo estiloText">Casa Club</div>
+                            <div class="tamImgCaja img6"></div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 padInferiorCaja">
+                        <a href="Cabana_DosCielos.html">
+                            <div class="tamTituloCaja colorTituloNaranja estiloText">Cabaña Dos Cielos</div>
+                            <div class="tamImgCaja img7"></div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 padInferiorCaja">
+                        <a href="Cabana_LoveShack.html">
+                            <div class="tamTituloCaja colorTituloVerde estiloText">Love Shack</div>
+                            <div class="tamImgCaja img8"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="modalURL" class="modalClipboard animated">
+        <div>
+            <p>URL of page copied to clipboard</p>
+        </div>
+    </div>
+
+    <!--- URL to clipboard --->
+    <script src='../scripts/urlToClipboard.js'></script>
+    <!--Alerts-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--- Hover --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../styles/funcionalidadCamping.js"></script>
+    <!--- Bootstrap JS --->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

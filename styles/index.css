@@ -1,0 +1,245 @@
+body{
+    /* background-color: #6389D4 !important; */
+    background-image: linear-gradient(#6389D4 50%, #DCB860 50%);
+}
+/*--- Banner ---*/
+#bannerHome{
+    padding: 0px;
+}
+.bannerImg{
+    height: calc(100vh - 40px);
+    background-color: #6389D4;
+    background-image: url("../imgs/Portada_frente_movil.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+/*--- End of Banner ---*/
+
+/*--- Services ---*/
+#services{
+    background: url("../imgs/corner_top.svg") top left/32.5% no-repeat, url("../imgs/corner_bottom.svg") bottom right/32.5% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
+}
+
+/* Undeline hover links*/
+#services a{
+    text-decoration: none;
+}
+#ser1, #ser2{
+    text-align: center;
+}
+.headerServices{
+    height: 30px;
+}
+#ser1 .headerServices{
+    background-color: #779C68;
+}
+#ser2 .headerServices{
+    background-color: #DCB860;
+}
+.photoServices{
+    height: 160px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#ser1 .photoServices{
+    background-image: url("../imgs/Ft_cabanas.jpg");
+}
+#ser2 .photoServices{
+    background-image: url("../imgs/Ft_camping1.jpg");
+}
+#iconsGrid{
+    padding-top: 28px;
+}
+#iconsGrid .col{
+    padding: 0px !important;
+}
+#iconsGrid img{
+    max-width: 44px;
+    margin: auto;
+    display: block;
+}
+#iconJuegos{
+    font-size: 8px !important;
+}
+h5{
+    margin-top: 2.5px;
+    margin-bottom: 12px;
+}
+/*--- End of Services ---*/
+
+/*--- Landscape ---*/
+#landscape{
+    max-width: 1920px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    background-color: #DCB860;
+}
+#landscape div{
+    padding-top: 50%;
+    background-image: url("../imgs/Ft_Mapa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*--- End of Landscape ---*/
+
+/*--- Contact ---*/
+#Contact{
+    background: url("../imgs/back_texture.jpg") center center/cover no-repeat;
+}
+/*--- End of Contact ---*/
+
+@media only screen and (min-width: 414px) {
+    #services{
+        background: url("../imgs/corner_top.svg") top left/25% no-repeat, url("../imgs/corner_bottom.svg") bottom right/25% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
+    }
+    #iconJuegos{
+        font-size: 9px !important;
+    }
+}
+/*--- Small Devices (sm) ---*/
+@media only screen and (min-width: 576px) {
+    /*--- Banner ---*/
+    /*--- End of Banner ---*/
+
+    /*--- Services ---*/
+    .photoServices{
+        height: 176px;
+    }
+    #iconsGrid{
+        padding-top: 30px;
+    }
+    #iconsGrid img{
+        max-width: 48px;
+    }
+    #iconJuegos{
+        font-size: 13px !important;
+    }
+    h5{
+        margin-bottom: 16px;
+    }
+    /*--- End of Services ---*/
+}
+/*--- End of Small Devices (sm) ---*/
+
+/*--- Medium Devices (md) ---*/
+@media only screen and (min-width: 768px) {
+    /*--- Banner ---*/
+    .bannerImg{
+        background-image: url("../imgs/Portada_frente_tablet.png");
+    }
+    /*--- End of Banner ---*/
+
+    /*--- Services ---*/
+    #services{
+        background: url("../imgs/corner_top.svg") top left/20% no-repeat, url("../imgs/corner_bottom.svg") bottom right/20% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
+    }
+    .photoServices{
+        height: 160px;
+    }
+    #iconsGrid{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    #iconsGrid img{
+        max-width: 58px;
+    }
+    /*--- End of Services ---*/   
+}
+/*--- End of Medium Devices (md) ---*/
+
+/*--- Large Devices (lg) ---*/
+@media only screen and (min-width: 992px) {
+    /*--- Banner ---*/
+    .bannerImg{
+        background-image: url("../imgs/Portada_frente_1920.png");
+        background-size: cover;
+    }
+    /*--- End of Banner ---*/
+
+    /*--- Services ---*/
+    #services{
+        background: url("../imgs/corner_top.svg") top left/15% no-repeat, url("../imgs/corner_bottom.svg") bottom right/15% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
+    }
+    #photosServices{
+        padding-right: 0px;
+    }
+    #iconsGrid{
+        padding-top: 0px;
+        padding-right: 15px;
+        margin: auto 0;
+    }
+    #iconsGrid img{
+        max-width: 74px;
+    }
+    /*--- End of Services ---*/
+}
+/*--- End of Large Devices (lg) ---*/
+
+/*--- Extra Large Devices (xl) ---*/
+@media only screen and (min-width: 1200px) {
+    /*--- Banner ---*/
+    .bannerImg{
+        background-image: url("../imgs/Portada_frente_1440.png");
+    }
+    /*--- End of Banner ---*/
+
+    /*--- Services ---*/
+    .headerServices{
+        height: 40px;
+    }
+    .photoServices{
+        height: 216px;
+    }
+    #iconsGrid{
+        padding-left: 110px;
+    }
+    #iconsGrid img{
+        max-width: 92px;
+    }
+    #iconJuegos{
+        font-size: 15px !important;
+    }
+    h5{
+        margin-top: 6px;
+        margin-bottom: 18px;
+    }
+    /*--- End of Services ---*/
+}
+/*--- End of Extra Large Devices (xl) ---*/
+
+/*--- Full HD Devices ---*/
+@media only screen and (min-width: 1920px) {
+    /*--- Banner ---*/
+    .bannerImg{
+        background-image: url("../imgs/Portada_frente_1920.png");
+    }
+    /*--- End of Banner ---*/
+
+    /*--- Services ---*/
+    #services{
+        background: url("../imgs/corner_top.svg") top left/10% no-repeat, url("../imgs/corner_bottom.svg") bottom right/10% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
+    }
+    .headerServices{
+        height: 50px;
+    }
+    .photoServices{
+        height: 270px;
+    }
+    #iconsGrid{
+        padding-left: 126px;
+    }
+    #iconsGrid img{
+        max-width: 116px;
+    }
+    #iconJuegos{
+        font-size: 20px !important;
+    }
+    h5{
+        margin-top: 8px;
+        margin-bottom: 22px;
+    }
+    /*--- End of Services ---*/
+}
+/*--- End of Full HD Devices ---*/

@@ -1,0 +1,156 @@
+#fondoModal{
+    background: url("../imgs/back_texture.jpg") center center/cover no-repeat;
+}
+.fondoInferiorCafe {
+    background-color: #402414;
+    height: auto;
+}
+.fondoMedioNaranja{
+    background-color: #CA7337;
+    height: auto;
+}
+.centrarBotonCierre img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    max-width: 43px;
+}
+.margenExterno{
+    padding-top: 26.2px;
+    padding-left:25.8px;
+    padding-right:25.8px;
+    padding-bottom: 21.1px;
+}
+.margenModal{
+    padding-top: 12.5px;
+    padding-left: 14.1px;
+    padding-right: 14.1px;
+    padding-bottom: 12.5px;
+}
+.centrarTitulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.margenesInternos{
+    padding-top: 33.4px;
+    padding-right: 22.1px;
+    padding-left: 22.1px;
+    padding-bottom: 50px
+}
+.GothamBold{
+    font-family: 'Gotham-Bold';
+    font-size: 12px;
+    line-height: 13px;
+}
+.GothamMedium{
+    font-family: 'Gotham';
+    font-size: 12px;
+    line-height: 13px;
+}
+.modal {
+    display: none;
+    overflow: auto;
+}
+@media only screen and (min-width: 414px){
+    .margenExterno{
+        padding-top: 26px;
+        padding-left: 72px;
+        padding-right: 72px;
+        padding-bottom: 26px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .margenExterno{
+        padding-top: 45px;
+        padding-left: 54px;
+        padding-right: 54px;
+        padding-bottom: 22px;
+    }
+    .margenModal{
+        padding-top: 35px;
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-bottom: 35px;
+    }
+    .centrarTitulo{
+        padding-bottom: 21px;
+    }
+    .margenesInternos{
+        padding-top: 33.4px;
+        padding-right: 37px;
+        padding-left: 37px;
+        padding-bottom: 40px
+    }
+    .centrarBotonCierre img{
+        padding-top: 22px;
+    }
+}
+@media only screen and (min-width: 992px){
+    /*divicion*/
+    .divide{
+        height: 100%;
+        width: 2px;
+        margin: 0;
+        background-color: #402414;
+    }
+
+    .GothamBold{
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .GothamMedium{
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .margenExterno{
+        padding-top: 32px;
+        padding-left:64px;
+        padding-right: 64px;
+        padding-bottom: 22px;
+    }
+    .padleftandRight0{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .GothamBold{
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .GothamMedium{
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .margenExterno{
+        padding-top: 67px;
+        padding-left:75px;
+        padding-right: 75px;
+        padding-bottom: 22px;
+    }
+    .centrarBotonCierre img{
+        padding-top: 25px;
+        max-width: 46px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .GothamBold{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .GothamMedium{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .margenExterno{
+        padding-top: 114px;
+        padding-left:180px;
+        padding-right: 180px;
+        padding-bottom: 22px;
+    }
+    .centrarBotonCierre img{
+        padding-top: 30px;
+        max-width: 55.56px;
+    }
+}

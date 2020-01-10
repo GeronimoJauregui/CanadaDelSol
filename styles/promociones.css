@@ -1,0 +1,59 @@
+
+#fondopromociones{
+    background: url("../imgs/back_texture.jpg") center center/cover no-repeat;
+}
+.container_top{
+    padding-top: 74.2px;
+}
+.tamFoto{
+    height: 150px;
+}
+.foto {
+    background: url("../imgs/Ft_promociones.png") center center/cover no-repeat;
+    
+}
+
+@media only screen and (min-width: 414px) {
+    .tamFoto{
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .tamFoto{
+        height: 280px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .tamFoto{
+        height: 340px;
+    }
+    .container_top{
+        padding-top: 284.2px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .container_top{
+        padding-top: 128.1px;
+    }
+    .tamFoto{
+        height: 400px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .container_top{
+        padding-top: 143.2px;
+    }
+    .tamFoto{
+        height: 440px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .tamFoto{
+        height: 600px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .tamFoto{
+        height: 600px;
+    }
+}

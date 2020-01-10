@@ -1,0 +1,308 @@
+/* Style for "The Farm" */
+
+body{
+    background: url("../imgs/back_texture.jpg") center center/cover repeat;
+}
+.Titulo{
+    padding-top: 53px;
+    padding-bottom: 10.2px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+
+#container_carousel{
+    /*padding-top: 0px;*/
+    height: calc(100vh - 40px);
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 16.71px;
+    height: 79.22px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../icons/Flecha_Izq_320.svg");
+    left: -15px;
+    position: absolute;
+}
+
+.carousel-control-prev {
+    left: 0px;
+    width: 20px;
+    opacity: 1;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../icons/Flecha_Der_320.svg");
+    left: 18px;
+    position: absolute;
+}
+
+.carousel-control-next {
+    right: 0px;
+    width: 20px;
+    opacity: 1;
+}
+
+.carousel-indicators{
+    bottom: -45px;
+    position: absolute;
+}
+
+.carousel-indicators li {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #C76F35;
+}
+
+.bandera{
+    padding-top: 25%;
+    float: left;
+}
+
+.bandera img{
+    height: 22.46px;
+    width: 22.46px;
+
+}
+
+.sidebarSocial{
+    top: 60%;
+}
+
+/*.sidebarSocial {
+    top: 350px;
+}*/
+
+/*--- Small Devices (sm) ---*/
+@media only screen and (min-width: 414px) {
+    .Titulo{
+        padding-top: 49px;
+        padding-bottom: 9.2px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 25.13px;
+        height: 101.95px;
+    }    
+
+    .carousel-control-prev {
+        left: 0px;
+        width: 30px;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("../icons/Flecha_Izq_414.svg");
+        left: -23px;
+    }
+
+    .carousel-control-next {
+        right: 0px;
+        width: 30px;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../icons/Flecha_Der_414.svg");
+        left: 27px;
+    }
+
+    .bandera{
+        padding-top: 95.6px;
+    }   
+
+    .bandera img{
+        height: 30px;
+        width: 30px;
+    }
+
+}
+/*--- End of Small Devices (sm) ---*/
+
+
+/*--- Medium Devices (md) ---*/
+@media only screen and (min-width: 768px) {
+
+    .sidebarSocial{
+        top: 65%;
+    }
+
+    #container_carousel{
+        height: calc(100vh - 50px);
+    }
+
+    .Titulo{
+        padding-top: 220px;
+        padding-bottom: 28.2px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 92px;
+        height: 161.17px;
+    }    
+
+    .carousel-control-prev {
+        left: 0px;
+        width: 89.5px;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("../icons/Flecha_Izq_768.svg");
+        left: -89px;
+    }
+
+    .carousel-control-next {
+        right: 0px;
+        width: 88.5px;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../icons/Flecha_Der_768.svg");
+        left: 87px;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+}
+/*--- End of Medium Devices (md) ---*/
+
+/*--- Large Devices (lg)  Bootstrap ---*/
+@media only screen and (min-width: 992px) {
+    #container_carousel{
+        height: calc(100vh - 40px);
+    }
+
+    .Titulo{
+        padding-top: 57px;
+        padding-bottom: 35.1px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 145.38px;
+        height: 189.71px;
+    }    
+    .carousel-control-prev-icon {
+        background-image: url("../icons/BT_Rwd_Galerias.svg");
+        left: -144px;
+    }
+
+    .carousel-control-prev {
+        left: 0px;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../icons/BT_Fwd_Galerias.svg");
+        left: 88px;
+        position: absolute
+    }
+
+    .carousel-control-next {
+        right: 0px;
+        opacity: 1;
+    }
+
+    .carousel-indicators li {
+        width: 8px;
+        height: 9px;
+        margin-right: 12px;
+        margin-left: -4px;
+
+    }
+
+/*    .sidebarSocial {
+        top: 514px;
+    }*/
+}
+/*--- End of Large Devices Bootstrap (lg) ---*/
+
+/*--- Extra Large Devices (xl) Bootstrap ---*/
+@media only screen and (min-width: 1200px) {
+
+    .sidebarSocial{
+        top: 40%;
+    }
+
+    #container_carousel{
+        height: calc(100vh - 60px);
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 188.66px;
+        height: 246.19px;
+    }    
+
+    .carousel-control-prev-icon {
+        left: -186px;
+    }
+
+    .carousel-control-prev {
+        left: 0px;
+    }
+
+    .carousel-control-next-icon {
+        left: 88px;
+    }
+
+
+    .carousel-control-next {
+        right: 0px;
+    }
+
+    .carousel-indicators {
+        bottom: -58px;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 11px;
+        margin-right: 19px;
+        margin-left: -4px;
+
+    }
+
+/*    .sidebarSocial {
+        top: 440px;
+    }*/
+}
+/*--- End of Extra Large Devices (xl) Bootstrap ---*/
+
+/*--- Extra Large Devices (xl) ---*/
+@media only screen and (min-width: 1440px) {
+
+    .div_logo_galeria{
+        padding-top: 58px;
+        padding-left: calc((100vw*74)/100);
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 188.66px;
+        height: 246.19px;
+    }
+}
+/*--- End of Extra Large Devices (xl) ---*/
+
+/*--- Ful HD Devices (FHD) ---*/
+@media only screen and (min-width: 1920px){
+    #container_carousel{
+        height: calc(100vh - 80px);
+    }
+
+    .Titulo{
+        padding-top: 65px;
+        padding-bottom: 41.1px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 222.27px;
+        height: 290.05px;
+    }    
+
+    .carousel-control-prev-icon {
+        left: -219px;
+    }
+
+}
+/*--- Full HD Devices (FHD) ---*/

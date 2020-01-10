@@ -1,0 +1,244 @@
+#fondoModal{
+    background: url("../imgs/back_texture.jpg") center center/cover no-repeat;
+}
+.fondoInferiorCafe {
+    background-color: rgba(64, 36, 20, .75);
+    height: auto;
+}
+.fondoMedioVerde{
+    background-color: #779C68;
+    height: auto;
+}
+.centrarBotonCierre img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    max-width: 43px;
+}
+.margenExter{
+    padding-top: 26.2px;
+    padding-left:25.8px;
+    padding-right:25.8px;
+    padding-bottom: 21.1px;
+}
+.margenModal{
+    padding-top: 12.5px;
+    padding-left: 14.1px;
+    padding-right: 14.1px;
+    padding-bottom: 12.5px;
+}
+.TituloTarifa{
+    text-align: center;
+}
+.margenesInter{
+    padding-top: 33.4px;
+    padding-right: 22.1px;
+    padding-left: 22.1px;
+    padding-bottom: 6px
+}
+.GothamMed{
+    font-family: 'Gotham';
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.letrachica{
+    font-family: 'Gotham';
+    font-size: 9px;
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.modal {
+    display: none;
+    overflow: auto;
+}
+
+.precio{
+    text-align: center;
+}
+
+.impar{
+    height: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.par{
+    background-color: rgba(119, 156, 104, .4);
+    height: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+@media only screen and (min-width: 414px){
+    .margenExter{
+        padding-top: 26px;
+        padding-left: 72px;
+        padding-right: 72px;
+        padding-bottom: 26px;
+    }
+
+    .letrachica{
+        font-size: 12px;
+        line-height: 13px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .margenExter{
+        padding-top: 191.3px;
+        padding-left: 54px;
+        padding-right: 54px;
+        padding-bottom: 172px;
+    }
+    .GothamMed{
+        justify-content: left;
+    }
+    .margenModal{
+        padding-top: 35px;
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-bottom: 35px;
+    }
+    .centrarTitulo{
+        padding-bottom: 21px;
+    }
+    .margenesInter{
+        padding-top: 33.4px;
+        padding-right: 37px;
+        padding-left: 37px;
+        padding-bottom: 40px;
+    }
+    .centrarBotonCierre img{
+        padding-top: 22px;
+    }
+
+    .impar{
+    height: 28.34px;
+    }
+
+    .par{
+        height: 28.34px;
+    }
+    
+}
+@media only screen and (min-width: 992px){
+    .TituloTarifa{
+        text-align: center;
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    .impar{
+    height: 33.34px;
+    }
+
+    .par{
+        height: 33.34px;
+    }
+    .espacio_tarifa{
+        padding-bottom: 23px;
+    }
+    .letrachica {
+        font-size: 12px;
+        line-height: 13px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+    .margenesInter{
+        padding-right: 73px;
+        padding-left: 73px;
+        padding-bottom: 12px;
+    }
+    .GothamMed{
+        font-size: 13px;
+        line-height: 14px;
+        justify-content: left;
+    }
+    .margenExter{
+        padding-top: 66px;
+        padding-left:173px;
+        padding-right: 173px;
+        padding-bottom: 44px;
+    }
+    .padleftandRight0{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .GothamMed{
+        font-size: 15px;
+        line-height: 17px;
+    }
+    
+    .impar{
+        height: 36.5px;
+    }
+
+    .par{
+        height: 36.5px;
+    }
+
+    .margenExter{
+        padding-left:289px;
+        padding-right: 289px;
+    }
+
+    .letrachica {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .centrarBotonCierre img{
+        padding-top: 25px;
+        max-width: 46px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .GothamMed{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    .impar{
+        height: 43.5px;
+    }
+
+    .par{
+        height: 43.5px;
+    }
+
+    .letrachica {
+        font-size: 16px;
+        line-height: 17px;
+        padding-top: 38px;
+    }
+
+    .margenesInter {
+        padding-top: 59.4px;
+        padding-right: 122px;
+        padding-left: 122px;
+        padding-bottom: 28px;
+    }
+
+
+    .margenExter{
+        padding-left:440px;
+        padding-right: 440px;
+    }
+
+    .centrarBotonCierre img{
+        padding-top: 25px;
+        max-width: 46px;
+    }
+    .centrarBotonCierre img{
+        padding-top: 30px;
+        max-width: 55.56px;
+    }
+}

@@ -1,0 +1,450 @@
+body{
+    background: url("../imgs/back_texture.jpg") center center/cover repeat;
+    margin-bottom: 20px;
+}
+
+.Titulo{
+    padding-top: 53px;
+    padding-bottom: 16px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.imagen_p{
+	background: url(../imgs/Rectangle_288.jpg) center center/cover no-repeat;
+	height: 183.73px;
+	margin-bottom: 13.7px;
+}
+
+.preguntas{
+	height: 115.93px;
+	margin-bottom: 13.7px;
+}
+
+.preguntas_titulo{
+	height: 36.23px;
+	background: #CA7337;
+	display: flex;
+}
+
+.preguntas_titulo h4{
+	color: #ffffff !important; 
+	margin: auto;
+}
+
+.preguntas_cuerpo{
+	background: rgba(202, 115, 55, .65);
+	height: 45.86px;
+	/*display: flex;*/
+}
+
+p{
+	margin: auto !important;
+}
+
+.flecha img{
+	position: relative;
+    top: -6px;
+}
+
+.preguntas_mas{
+	background: rgba(202, 115, 55, .65);
+	height: 33.84px;
+	text-align: center;
+}
+.preguntas_mas a{
+	color: #ffffff !important;
+}
+
+.tar_img{
+	margin-bottom: 13.7px;
+}
+
+.tarifa_titulo{
+	background-color: #779C68;
+	height: 36.23px;
+	display: flex;
+}
+.tarifa_titulo h4{
+	color: #ffffff !important; 
+	margin: auto;
+}
+
+.tarifa_cuerpo{
+	height: 47.06px;
+	background-color: rgba(119, 156, 104, .65);
+}
+
+.tarifa_texto, .tarifa_precio{
+	height: 47.06px;
+}
+
+.tarifa_fin{
+	background-color: rgba(119, 156, 104, .65);
+	height: 39.27px;
+	text-align: center;
+}
+.tarifa_fin a{
+	color: #ffffff !important;
+
+}
+
+.div_img_bici{
+	padding-right: 0px;
+	padding-left: 7px;
+}
+
+.img_bici{
+	background: url(../imgs/Foto_A.jpg) center center/cover no-repeat;
+	height: 122.59px;
+}
+
+.reglamento{
+	height: 147.56px;
+}
+
+.reglamento_titulo{
+	height: 36.23px;
+	background: #D2AD5D;
+	display: flex;
+}
+
+.reglamento_titulo h4{
+	color: #ffffff !important; 
+	margin: auto;
+}
+
+.reclutamiento_cuerpo{
+	background: rgba(210, 173, 93, .65);
+	height: 76.52px;
+}
+
+.reclutamiento_fin{
+	background: rgba(210, 173, 93, .65);
+	height: 34.84px;
+	text-align: center;
+}
+.reclutamiento_fin a{
+	color: #ffffff !important;
+}
+
+/*--- Medium Devices (md) ---*/
+@media only screen and (min-width: 768px){
+	.Titulo{
+	    padding-top: 54px;
+	    padding-bottom: 24px;
+	    text-align: center;
+	    letter-spacing: -1px;
+	}
+
+	.imagen_p{
+		height: 428.98px;
+		margin-bottom: 8.4px;
+	}
+
+	.preguntas{
+		height: 349.93px;
+		padding-right: 23px;
+	}
+
+	.preguntas_titulo{
+		height: 52.23px;
+		text-align: center;
+	}
+
+	.preguntas_cuerpo{
+		padding-top: 1px;
+		height: 263.86px;
+
+	}
+
+	.tar_img{
+	
+		padding-right: 19px;
+		padding-left: 19px
+	}
+
+	.div_tarifa{
+		height:  170.59px;
+		margin-bottom: 9px;
+	}
+
+	.tarifa_titulo{
+		height: 52.23px;
+	
+	}
+
+	.tarifa_cuerpo{
+		height: 86px;
+	}
+
+	.tarifa_texto, .tarifa_precio{
+		height: 86px;
+	}
+
+	.tarifa_fin{
+		height: 32px;
+	}
+
+	.div_img_bici{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.img_bici{
+		height: 170.39px;
+	}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+	.reglamento{
+		padding-left: 23px
+	}
+
+	.reglamento_titulo{
+		height: 51.86px;
+	}
+
+	.reclutamiento_cuerpo{
+		height: 263.23px;
+	}
+
+}
+/*--- End of Medium Devices (md) ---*/
+
+/*--- Large Devices (lg) ---*/
+@media only screen and (min-width: 992px) {
+	
+	.Titulo{
+	    padding-top: 89px;
+	    padding-bottom: 33.9px;
+	    text-align: left;
+	    letter-spacing: -1px;
+	}
+
+	.imagen_p{
+		height: 320.42px;
+		width: 405.81px;
+		margin-bottom: 0px;
+		padding-left: 24px;
+	}	
+
+
+	.preguntas{
+		height: 320.42px;
+	}
+
+	.preguntas_titulo{
+		height: 47.48px;
+		text-align: center;
+	}
+
+	.preguntas_cuerpo{
+		padding-top: 1px;
+		height: 237.94px;
+
+	}
+
+	.preguntas_mas{
+		height: 35px;
+	}
+/*---------------------------------------------------*/
+	.tar_img{
+		padding-right: 23px;
+    	padding-left: 15px;
+	}
+
+	.div_tarifa{
+		height:  156.05px;
+		margin-bottom: 9px;
+	}
+
+	.tarifa_titulo{
+		height: 47.48px;
+	
+	}
+
+	.tarifa_cuerpo{
+		height: 65.57px;
+	}
+
+	.tarifa_texto, .tarifa_precio{
+		height: 65.57px;
+	}
+
+	.tarifa_fin{
+		height: 43px;
+	}
+
+	.div_img_bici{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.img_bici{
+		height: 156.05px;
+	}
+
+	.reglamento{
+		padding-left: 15px;
+    	padding-right: 23px;
+	}
+
+	.reglamento_titulo{
+		height: 47.48px;
+	}
+
+	.reclutamiento_cuerpo{
+		height: 237.94px;
+	}
+
+	.reclutamiento_fin{
+		height: 35px;
+	}
+}
+
+/*--- End of Large Devices (lg) ---*/	
+
+/*--- Extra Large Devices (xl) ---*/
+@media only screen and (min-width: 1200px) {
+
+	.imagen_p{
+		height: 447.77px;
+	}
+
+	.Titulo{
+	    padding-top: 132px;
+	    padding-bottom: 45.1px;
+	    text-align: left;
+	    letter-spacing: -1px;
+	}
+
+	.preguntas{
+		height: 447.77px;
+	}
+
+	.preguntas_titulo{
+		height: 66.36px;
+		text-align: center;
+	}
+
+	.preguntas_cuerpo{
+		height: 335.41px;
+	}
+
+	.preguntas_mas{
+		height: 46px;
+	}
+/*---------------------------------------------------*/
+	.div_tarifa{
+		height:  218.07px;
+		margin-bottom: 11.6px;
+	}
+
+	.tarifa_titulo{
+		height: 66.36px;
+	}
+
+	.tarifa_cuerpo{
+		height: 105.71px;
+	}
+
+	.tarifa_texto, .tarifa_precio{
+		height: 104.13px;
+	}
+
+	.tarifa_fin{
+		height: 46px;
+	}
+
+	.img_bici{
+		height: 218.07px;
+	}
+
+	.reglamento_titulo{
+		height: 66.36px;
+	}
+
+	.reclutamiento_cuerpo{
+		height: 335.41px;
+	}
+
+	.reclutamiento_fin{
+		height: 46px;
+	}
+}
+/*--- End of Extra Large Devices (xl) ---*/
+
+@media only screen and (min-width: 1440px) {
+/*-----------div preguntas---------------*/
+	.ultima_pregunta{
+		display: block !important;
+	}	
+}
+/*--- Full HD Devices ---*/
+@media only screen and (min-width: 1920px) {
+
+	.imagen_p{
+		height: 566px;
+	}
+
+	.Titulo{
+	    padding-top: 124px;
+	    padding-bottom: 74.1px;
+	}
+
+	.preguntas{
+		height: 566px;
+	}
+
+	.preguntas_titulo{
+		height: 83.88px;
+	}
+
+	.preguntas_cuerpo{
+		height: 436.12px;
+	}
+
+/*---------------------------------------------------*/
+	.div_tarifa{
+		height:  275.65px;
+		margin-bottom: 14.7px;
+	}
+
+	.tarifa_titulo{
+		height: 83.88px;
+	}
+
+	.tarifa_cuerpo{
+		height: 145.77px;
+	}
+
+	.tarifa_texto, .tarifa_precio{
+		height: 145.77px;
+	}
+
+	.tarifa_fin{
+		height: 46px;
+	}
+
+	.img_bici{
+		height: 273.65px;
+	}
+
+	/*.reglamento{
+		padding-left: 15px;
+    	padding-right: 23px;
+	}*/
+
+	.reglamento_titulo{
+		height: 83.88px;
+	}
+
+	.reclutamiento_cuerpo{
+		height: 436.12px;
+	}
+
+	.reclutamiento_fin{
+		height: 46px;
+	}
+}
+/*--- End of Full HD Devices ---*/

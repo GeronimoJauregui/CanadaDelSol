@@ -1,0 +1,252 @@
+.margenCabañas{
+     padding: 0 29px;
+ }
+ .containerMargin{
+     padding-top: 54.9px;
+     padding-bottom: 49.1px;
+ }
+ #fondoCabana{
+     background: url("../imgs/back_texture.jpg") center center/cover no-repeat;
+ }
+ .posicionBandera{
+     position: absolute;
+     left: 81%;
+     top: 135px;
+     z-index: 100;
+ }
+ .tamanoBandera img{
+     max-width: 22.46px;
+ }
+ #logCabana img{
+     display: block;
+     margin-left: auto;
+     max-width: 30px;
+     margin-bottom: 41px;
+ }
+ .logCabana{
+     padding-right: 10px;
+ }
+ /* Style for "CAMPING" */
+ .cabana {
+     padding-left: 0px;
+     padding-top: 6px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ .padCabana{
+     padding-left: 0px;
+ }
+ /*Titulo de las imagenes*/
+ .padInferiorCaja{
+     padding-bottom: 22.8px;
+ }
+ .tamTituloCaja{
+     height: 29.7px;  
+ }
+ .tamImgCaja{
+     height: 233.19px;
+ }
+ .estiloText{
+     font-size: 16px;
+     font-family: 'Gotham-Bold';
+     line-height: 17px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .colorTituloCafe{
+     background-color: #402414;
+     color:#DCB860;
+ }
+ .colorTituloAmarillo{
+     background-color: #DCB860;
+ }
+ .colorTituloNaranja{
+     background-color: #C87337;
+ }
+ .colorTituloVerde{
+     background-color: #779C68;
+ }
+ .img1{
+     background: url("../imgs/Menu_CampoVerde.jpg") center center/cover no-repeat;
+ }
+ .img2{
+     background: url("../imgs/Menu_Romance.jpg") center center/cover no-repeat;
+ }
+ .img3{
+     background: url("../imgs/Menu_LosRigos.jpg") center center/cover no-repeat;
+ }
+ .img4{
+     background: url("../imgs/Menu_LasLilis.jpg") center center/cover no-repeat;
+ }
+ .img5{
+     background: url("../imgs/Menu_LaMachis.jpg") center center/cover no-repeat;
+ }
+ .img6{
+     background: url("../imgs/Menu_CasaClub.jpg") center center/cover no-repeat;
+ }
+ .img7{
+     background: url("../imgs/Menu_DosCielos.jpg") center center/cover no-repeat;
+ }
+ .img8{
+     background: url("../imgs/Menu_LoveShack.jpg") center center/cover no-repeat;
+ }
+ @media only screen and (min-width: 414px){
+     #logCabana img{
+         max-width: 38px;
+         margin-bottom: 33.4px;
+     }
+     .margenCabañas{
+         padding: 0 76px;
+     }
+     .containerMargin{
+         padding-top: 54.9px;
+         padding-bottom: 49.1px;
+     }
+     .cabana {
+         padding-top: 10px;
+     }
+     .padInferiorCaja{
+         padding-bottom: 23.1px;
+     }
+     .posicionBandera{
+         position: absolute;
+         left: 5%;
+         top: 340px;
+     }
+     .tamanoBandera img{
+         max-width: 30px;
+     }
+ }
+ @media only screen and (min-width: 576px){
+     .containerMargin{
+         padding-top: 54.9px;
+         padding-bottom: 49.1px;
+     }
+     #logcabana img{
+         max-width: 41px;
+         margin-bottom: 22px;
+     }
+     .cabana {
+         padding-left: 4px;
+         padding-top: 9px;
+     }
+ }
+ @media only screen and (min-width: 768px){
+     #logCabana img{
+         max-width: 42.56px;
+         margin-bottom: 33px;
+     }
+     .logCabana{
+         padding-right: 5px;
+         margin-left: 5px;
+     }
+     .cabana {
+         padding-left: 10px;
+         padding-top: 10px;
+     }
+     .padInferiorCaja{
+         padding-bottom: 27px;
+     }
+     .tamTituloCaja{
+         height: 23.4px;  
+     }
+     .estiloText{
+         font-size: 13px;
+         line-height: 14px;
+     }
+     .tamImgCaja{
+         height: 183.47px;
+     }
+     .posicionBandera{
+         position: absolute;
+         left: 3%;
+         top: 520px;
+     }
+ }
+ @media only screen and (min-width: 992px){
+     .containerMargin{
+         padding-top: 85px;
+         padding-bottom: 127px;
+     }
+     #logCabana img{
+         margin-bottom: 31px;
+     }
+     .logCabana{
+         padding-right: 0px;
+         margin-left: 18px;
+     }
+     .cabana {
+         padding-left: 15px; 
+     }
+     #ocultar img{
+         display: none;
+     }
+
+     .padInferiorCaja{
+         padding-bottom: 24.8px;
+     }
+ }
+ @media only screen and (min-width: 1200px){
+     .containerMargin{
+         padding-top: 74px;
+         padding-bottom: 96.7px;
+     }
+     #logCabana img{
+         max-width: 56.5px;
+         margin-bottom: 40px;
+     }
+     .logCabana{
+         padding-right: 0px;
+         margin-left: 5px;
+     }
+     .cabana {
+         padding-left: 23px;
+         padding-top: 9px;
+     }
+
+     .padInferiorCaja{
+         padding-bottom: 32.4px;
+     }
+     .tamTituloCaja{
+         height: 30.56px;  
+     }
+     .estiloText{
+         font-size: 16.15px;
+         line-height: 19.38px;
+     }
+     .tamImgCaja{
+         height: 239.63px;
+     }
+ }
+ @media only screen and (min-width: 1920px){
+     .containerMargin{
+         padding-top: 73px;
+         padding-bottom: 94px;
+     }
+     #logCabana img{
+         max-width: 70.2px;
+         margin-bottom: 49.8px;
+     }
+     .logCabana{
+         margin-left: 20px;
+     }
+     .cabana {
+         padding-left: 23px;
+         padding-top: 9px;
+     }
+
+     .padInferiorCaja{
+         padding-bottom: 40.3px;
+     }
+     .tamTituloCaja{
+         height: 38.02px;  
+     }
+     .estiloText{
+         font-size: 20.09px;
+         line-height: 24.11px;
+     }
+     .tamImgCaja{
+         height: 298.19px;
+     }
+ }

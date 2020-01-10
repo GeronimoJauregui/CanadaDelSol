@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cañada del Sol</title>
+
+    <!--- Bootstrap CSS --->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--- Global Custom CSS --->
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <!--- Custom CSS for this page --->
+    <link rel="stylesheet" href="../styles/informacion.css">
+    <link rel="stylesheet" href="../styles/reglamento.css">
+    <link rel="stylesheet" href="../styles/preguntas.css">
+    <link rel="stylesheet" href="../styles/Tarifa.css">
+
+    <!--- Favicon --->
+    <link rel="shortcut icon" type="image/png" href="../imgs/logo.png"/>
+    
+</head>
+<body>
+    <header>
+        <!--- Menu Mobile --->
+        <div class="collapse d-lg-none" id="menuList">
+            <div><h4><a href="../index.html">Inicio</a></h4></div>
+            <div><h4><a href="camping.html">Camping</a></h4></div>
+            <div><h4><a href="cabanas.html">Cabañas</a></h4></div>
+            <div><h4><a href="lagranja.html">La Granja</a></h4></div>
+            <div><h4 class="active"><a href="info.html">Información</a></h4></div>
+            <div><h4><a href="galeria.html">Galería</a></h4></div>
+            <div><h4><a href="../index.html#Contact">Contacto</a></h4></div>
+        </div>
+
+        <!--- Navbar Large Devices --->
+        <nav class="navbar navbar-expand-lg" id="mainNav">
+            <a class="navbar-brand" href="#" id="logoNav">
+                <img src="../icons/logo.svg" alt="logoCañadaDelSol">
+            </a>
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navMenus">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="camping.html">Camping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cabanas.html">Cabañas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lagranja.html">La Granja</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="info.html">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#Contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navLanguages">
+                <a class="nav-link" href="../ing/templates/info.html"><img src="../icons/bandera_usa.svg"></a>
+            </div>
+            
+            <!--- Toogler Mobile Menu --->
+            <div class="blankFlex d-lg-none"></div>
+            <button class="navbar-toggler d-lg-none" id="hamburguerMenu" type="button" data-toggle="collapse" data-target="#menuList" aria-controls="menuList" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--- Icon Gift Fixed --->
+            <a  href="./promociones.html" id="promIcon"><img src="../icons/regalo.svg"></a>
+        </nav>
+    </header>
+
+    <div id="floatingItems">
+        <!--- Floating Social Sidebar --->
+        <div class="sidebarSocial">
+            <div class="sidebarItem"><a href="https://www.facebook.com/CanadadelSol/?ref=br_rs" target="_blank"><img src="../icons/fb.svg"></a></div>
+            <div class="sidebarItem"><a href="https://www.instagram.com/explore/locations/248431923/canada-del-sol/" target="_blank"><img src="../icons/ig.svg"></a></div>
+            <div id="shareButton" class="sidebarItem"><img src="../icons/share.svg"></div>
+            <div class="sidebarItem"><a href="tel:+526641294242"><img src="../icons/call.svg"></a></div>
+        </div>
+    </div>
+
+    <div class="container-fluid margen">
+        <div  class="Titulo">
+            <h1>INFORMACIÓN</h1>
+        </div>
+        <div class="row" >
+            <div class="col-12 col-lg-6 order-lg-12 imagen_p">
+                <!--- Floating Language --->
+                <a class="insideEng d-lg-none" href="../ing/templates/info.html"><img src="../icons/bandera_usa.svg"></a>
+            </div>
+            <!-- <div class="col-12 col-lg-6 order-lg-12 "></div> -->
+            <div class="col-12 col-md-4 col-lg-2 preguntas">
+                <div class="row">
+                    <div class="col-12 preguntas_titulo">
+                        <h4 class="white">Preguntas frecuentes</h4>
+                    </div>
+                    <div class="col-12 preguntas_cuerpo">
+                        <p>
+                            <br>¿Cuál es la ubicación? Km. 105 Carretera libre Tecate – Mexicali. <br> <br> 
+                        </p>
+                        <p class="d-none d-md-block">
+                            ¿A cuánto tiempo están de Tijuana? Una hora. <br><br>
+                        </p>
+                        <p class="d-none d-md-block">
+                            ¿A cuánto tiempo están de Mexicali? Una hora. <br><br>
+                        </p>
+                         <p class="d-none d-md-block d-lg-none d-xl-block">
+                            ¿A cuánto tiempo están de Tecate? 25 minutos. <br><br>
+                         </p>
+                         <p class="d-none ultima_pregunta">
+                             ¿Están en Google Maps? Buscar bajo Cañada del Sol.
+                         </p>
+                    </div>
+                    <div  id="Btn_preguntas" class="col-12 preguntas_mas">
+                        <p style="color: #FFF"><a>Ver más</a></p>
+                        <a  class="flecha" href="#"><img src="../icons/Trazado 604.svg"></a>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 tar_img">
+                <div class="row">
+                    <div class="col-6 col-md-12 div_tarifa">
+                        <div class="row">
+                            <div class=" col-12 tarifa_titulo">
+                                <h4>Tarifas</h4>
+                            </div>
+                            <div class="col-12 tarifa_cuerpo">
+                                <div class="row">
+                                    <div class="col-7 tarifa_texto">
+                                        <p>
+                                            <br>Admisión por día <br><br>
+                                        </p>
+                                        <p class="d-none d-md-block d-lg-none d-xl-block">Camping por noche</p>
+                                    </div>
+                                    <div class="col-5 tarifa_precio">
+                                        <p>
+                                            <br>$100<br><br></p>
+                                        <p class="d-none d-md-block d-lg-none d-xl-block">
+                                            <br>$200
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-12 tarifa_fin" id="Btn_tarifa">
+                                <p ><a>Ver tabla de tarifas</a></p>
+                                <a class="flecha" href="#"><img src="../icons/Trazado 604.svg"></a>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-12 div_img_bici">
+                        <div class="img_bici">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 reglamento">
+                <div class="row">
+                    <div class="col-12 reglamento_titulo">
+                        <h4 class="white">Reglamento</h4>
+                    </div> 
+                    <div class="col-12 reclutamiento_cuerpo">
+                        <p><br><b>Acceso a alberca</b><br><br></p>
+                        <p>Horario de la alberca es de 10:00 a.m. a 7:00 p.m.<br><br></p>
+                        <p class="d-none d-md-block">No se permite el uso de camisetas, 
+                            ropa de mezclilla o algodón en la alberca.<br><br></p>
+                        <p class="d-none d-md-block d-lg-none d-xl-block">Es necesario portar ropa apropiada
+                            para el uso de la alberca.<br><br></p>
+                        <p class="d-none d-md-block d-lg-none d-xl-block">No correr cerca de la alberca ni jugar brusco.<br><br></p>
+                        <p class="d-none">No se permiten clavados.</p>
+                    </div>
+                    <div  id="Btn_Reglamento" class="col-12 reclutamiento_fin">
+                        <p><a>Ver más</p> 
+                        <a  class="flecha" href="#"><img src="../icons/Trazado 604.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <!-- ------------------------------------------------Modal Reglamento--------------------------------------- -->
+    <div id="Modal_Reglamento" class="modal cerrar_reglamento">
+        <div class="modal-content">
+            <div class="modal-body fondoInferiorCafe margenExterno">
+                <div class="fondoMedioCrema margenModal">
+                    <div class="col-12 col-lg-12 col-xl-12 margenesInternos" id="fondoModal">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-xl-12 centrarTitulo">
+                                <h3>Reglamento</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-xl-6">
+                                <div class="GothamBold">Acceso a alberca</div>
+                                <div class="GothamMedium">Horario de alberca es de 10:00 a.m. a 7:00 p.m.<br>
+                                No se permite el uso de camisetas, ropa de mezclilla o algodón en la alberca.<br>
+                                Es necesario portar ropa apropiada para el uso de la alberca.<br>
+                                No correr cerca de la alberca ni jugar brusco.<br>
+                                No se permiten clavados.<br>
+                                El acceso a la alberca está solamente disponible de Abril a Octubre 2020.<br>
+                                </div>
+                                <br>
+                                <div class="GothamBold">Música</div>
+                                <div class="GothamMedium">La música está permitida de 9:00 a.m. a 11:00 p.m.<br>
+                                Durante el día el volumen de la música debe ser moderado, que solo sea para su campamento.<br>
+                                </div>
+                                <br>
+                                <div class="GothamBold">Motocicletas</div>
+                                <div class="GothamMedium">Horario de uso de motos, ATV’s y UTV’s en pista es de 9:00 a.m. a 7:00p.m.<br>
+                                Solo se permite el uso de motos, ATV’s y UTV’s en la pista.<br>
+                                Por ninguna razón deben transitar as motos a más de 10 km/hr para salir de su campamento a la pista.<br>
+                                </div>
+                                <br>
+                                <div class="GothamBold">Botellas de vidrio</div>
+                                <div class="GothamMedium">No es permitido introducir botellas o recipientes de vidrio en el área de la 
+                                alberca.
+                                </div>
+                                <br>
+                                <div class="GothamBold">Menores de 12 años</div>
+                                <div class="GothamMedium">Siempre tienen que estar acompañados de un adulto.
+                                </div>
+                                <br>
+                                <div class="GothamBold">No cortar leña</div>
+                                <div class="GothamMedium">No se permite cortar leña, ramas, arbustos, árboles, etc.
+                                </div>
+                                <br>
+                            </div>
+                            
+                            <div class="col-12 col-lg-6 col-xl-6">
+                                <div class="row">
+                                    <div class="col-lg-1" style="padding-left: 0px; padding-right: 0px;">
+                                        <div class="row divide"></div>
+                                    </div>
+                                    <div class="col-lg-10 col-xl-10 padleftandRight0">
+                                        <div class="GothamBold">Pinturas</div>
+                                        <div class="GothamMedium">No se permite el uso de pinturas ni graffiti.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Drogas</div>
+                                        <div class="GothamMedium">No se permite introducir o consumir drogas.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Juegos pirotécnicos</div>
+                                        <div class="GothamMedium">No se permiten juegos pirotécnicos o cohetes.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Armas de fuego</div>
+                                        <div class="GothamMedium">No se permite introducir o detonar armas de fuego, postas, municiones o paintball.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Camping</div>
+                                        <div class="GothamMedium">No se permite acampar o estacionarse en las áreas de cabaña.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Caballos | Ponis</div>
+                                        <div class="GothamMedium">Está prohibido correr o trotar los caballos y/o ponis, solo son para caminar.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Asadores</div>
+                                        <div class="GothamMedium">No se permiten usar 2 asadores al estacionar un solo carro.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Bancas</div>
+                                        <div class="GothamMedium">No se permite mover bancas sin autorización.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Mascotas</div>
+                                        <div class="GothamMedium">En el caso que su mascota persiga a los animales de la granja debe ponerle cadena o correa.Dentro de las cabañas las mascotas deben dormir dentro de una jaula.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12 col-xl-12 centrarBotonCierre">
+                    <span class="centrarBotonCierre"><img src="../icons/x_amarilla.svg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------Modal Preguntas--------------------------------------- -->
+    <div id="Modal_preguntas" class="modal cerrar_preguntas">
+        <div class="modal-content">
+            <div class="modal-body fondoInferiorCafe margenExterno">
+                <div class="fondoMedioNaranja margenModal">
+                    <div class="col-12 col-lg-12 col-xl-12 margenesInternos" id="fondoModal">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-xl-12 centrarTitulo">
+                                <h3 style="color: #C87337">Preguntas frecuentes</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-xl-6">
+                                <div class="GothamBold">¿Cuál es la ubicación?</div>
+                                <div class="GothamMedium">Km. 105 Carretera libre Tecate – Mexicali.</div>
+                                <br>
+                                <div class="GothamBold">¿A cuánto tiempo están de Tijuana? </div>
+                                <div class="GothamMedium">Una hora.</div>
+                                <br>
+                                <div class="GothamBold">¿A cuánto tiempo están de Mexicali? </div>
+                                <div class="GothamMedium">Una hora.</div>
+                                <br>
+                                <div class="GothamBold">¿A cuánto tiempo están de Tecate? </div>
+                                <div class="GothamMedium">25 minutos.</div>
+                                <br>
+                                <div class="GothamBold">¿Están en Google Maps? </div>
+                                <div class="GothamMedium">Sí. Ir a Google Maps.</div>
+                                <br>
+                                <div class="GothamBold">¿Los niños cuentan como personas en las cabañas?<br></div>
+                                <div class="GothamMedium">Si, cuenta a partir de los 7 años.</div>
+                                <br>
+                                <div class="GothamBold">¿Aceptan mascotas? </div>
+                                <div class="GothamMedium">Sí.</div>
+                                <br>
+                                <div class="GothamBold">¿Se pueden ingresar bebidas alcohólicas?<br></div>
+                                <div class="GothamMedium">Sí, no se permiten envases de vidrio en área de la alberca.</div>
+                                <br>
+                                <div class="GothamBold">¿Rentan motos? </div>
+                                <div class="GothamMedium">Sí.</div>
+                                <br>
+                                <div class="GothamBold">¿Rentan caballos? </div>
+                                <div class="GothamMedium">Sí.</div>
+                                <br>    
+                                <div class="GothamBold">¿Hay restaurante o tienda?<br> </div>
+                                <div class="GothamMedium">No, debe traer todas sus bebidas y alimentos. Hay OXXO a 5 minutos.</div>
+                                <br>
+                                <div class="GothamBold">¿Las cabañas cuentan con refrigerador?<br> </div>
+                                <div class="GothamMedium">Solo las cabañas Campoverde.</div>
+                                <br>
+                                <div class="GothamBold">¿Las cabañas cuentan con ventiladores o aire acondicionado?<br></div>
+                                <div class="GothamMedium">Solo las cabañas Campoverde.</div>
+                                <br>
+                                <div class="GothamBold">¿Las cabañas tienen luz? </div>
+                                <div class="GothamMedium">Sí, focos de energía solar.</div>
+                                <br>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-6">
+                                <div class="row">
+                                    <div class="col-lg-1" style="padding-left: 0px; padding-right: 0px;">
+                                        <div class="row divide"></div>
+                                    </div>
+                                    <div class="col-lg-10 col-xl-10 padleftandRight0">
+                                        <div class="GothamBold">¿Las cabañas tienen electricidad?<br></div>
+                                        <div class="GothamMedium">Solo las cabañas Campoverde.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Hay salvavidas en la alberca? </div>
+                                        <div class="GothamMedium">No hay salvavidas.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Hay Wi-Fi? </div>
+                                        <div class="GothamMedium">No.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Hay regaderas con agua caliente y baños para los que acampan? </div>
+                                        <div class="GothamMedium">Sí.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Se tiene que reservar para acampar? </div>
+                                        <div class="GothamMedium">No, paga al llegar al rancho.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Las áreas de acampar cuentan con electricidad? </div>
+                                        <div class="GothamMedium">No.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Las áreas de acampar tienen zacate? </div>
+                                        <div class="GothamMedium">No.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Hay electricidad en algún área para inflar colchones o cargar
+                                            celulares? </div>
+                                        <div class="GothamMedium">Sí, en área de alberca y recepción.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Se puede entrar con camiseta a la alberca?<br></div>
+                                        <div class="GothamMedium">Solo con traje de baño o ropa para nadar.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Cuál es el horario de música? </div>
+                                        <div class="GothamMedium">de 9:00 a.m. a 11:00 p.m.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Puedo llevar mis motos?<br></div>
+                                        <div class="GothamMedium">Sí, solo deben rodar en áreas destinadas para motociclismo.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Se pueden quebrar piñatas? </div>
+                                        <div class="GothamMedium">Sí.</div>
+                                        <br>
+                                        <div class="GothamBold">¿Se puede llevar grupo musical? </div>
+                                        <div class="GothamMedium">Sí, de 9:00 a.m. 11:00 p.m.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12 col-xl-12 centrarBotonCierre">
+                    <span class="centrarBotonCierre"><img src="../icons/x_naranja.svg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- ------------------------------------------------Modal Tarifa--------------------------------------- -->
+    <div id="Modal_tarifa" class="modal cerrar_tarifa">
+        <div class="modal-content">
+            <div class="modal-body fondoInferiorCafe margenExter">
+                <div class="fondoMedioVerde margenModal">
+                    <div class="col-12 col-lg-12 col-xl-12 margenesInter" id="fondoModal">
+                        <div class="row">
+                            <div class="col-12 TituloTarifa">
+                                <h3  class="espacio_tarifa" style="color: #779C68">Tarifas 2019</h3>
+                                <div  style="background-color: #779C68; height: 43.34px" class="col-12"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row impar">
+                                    <div class=" col-8 col-md-10 GothamMed">Admisión por día</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$100</div>
+                                </div>
+                                <div class="row par">
+                                    <div class=" col-8 col-md-10 GothamMed">Camping por noche</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$200</div>
+                                </div>
+                                <div class="row impar">
+                                    <div class=" col-8 col-md-10 GothamMed">Renta de carreta 1/2 hora</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$250</div>
+                                </div>
+                                <div class="row par">
+                                    <div class=" col-8 col-md-10 GothamMed">Renta de poni 1/2 hora</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$250</div>
+                                </div>
+                                <div class="row impar">
+                                    <div class=" col-8 col-md-10 GothamMed">Renta de caballo 1/2 hora</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$250</div>
+                                </div>
+                                <div class="row par">
+                                    <div class=" col-8 col-md-10 GothamMed">Tirolesa</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$250</div>
+                                </div>
+                                <div class="row impar">
+                                    <div class=" col-8 col-md-10 GothamMed">Renta de moto 1 hora</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$500</div>
+                                </div>
+                                <div class="row par">
+                                    <div class=" col-8 col-md-10 GothamMed">Love Shack para 2 personas por noche</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$990</div>
+                                </div>
+                                <div class="row impar">
+                                    <div class=" col-8 col-md-10 GothamMed">Cabaña “Lilis” o “Rigos” para 4 personas por noche</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$1500</div>
+                                </div>
+                                <div class="row par">
+                                    <div class=" col-8 col-md-10 GothamMed">Cabaña “La Machis” para 4 personas por noche</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$1800</div>
+                                </div>
+                                <div class="row impar">
+                                    <div class=" col-8 col-md-10 GothamMed">Cabañas Romance para 2 personas por noche</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$2400</div>
+                                </div>
+                                <div class="row par">
+                                    <div class=" col-8 col-md-10 GothamMed">Casa Club para 10 personas por noche</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$4000</div>
+                                </div>
+                                <div class="row impar"> 
+                                    <div class=" col-8 col-md-10 GothamMed">Cabaña Dos Cielos para 10 personas por noche</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$4000</div>
+                                </div>
+                                <div class="row par">
+                                    <div class=" col-8 col-md-10 GothamMed">Cabaña Hermana Grande para 8 personas</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$4500</div>
+                                </div>
+                                <div class="row impar"> 
+                                    <div class=" col-8 col-md-10 GothamMed">Cabañas Campo Verde 2 personas</div>
+                                    <div class=" col-4 col-md-2 GothamMed precio">$2750</div>
+                                </div>
+                                <div class="row"> 
+                                    <div class=" col-12 letrachica">*Todos los precios son en MXN</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12 col-xl-12 centrarBotonCierre">
+                    <span class="centrarBotonCierre"><img src="../icons/x_verde.svg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalURL" class="modalClipboard animated">
+        <div>
+            <p>URL of page copied to clipboard</p>
+        </div>
+    </div>
+
+    <!--- URL to clipboard --->
+    <script src='../scripts/urlToClipboard.js'></script>
+    <!--Alerts-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--- Hover --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../styles/funcionalidadCamping.js"></script>
+    <script type="text/javascript" src="../scripts/Modals.js"></script>
+    <script type="text/javascript" src="../scripts/ModalInfo.js"></script>
+    <!--- Bootstrap JS --->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

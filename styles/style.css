@@ -1,0 +1,800 @@
+/*--- Fonts ---*/
+@font-face {
+    font-family:'Gotham';
+    src: url('../fonts/Gotham-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg'), /* Legacy iOS */
+         url('../fonts/Gotham-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Gotham-Medium.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Gotham-Medium.woff2') format('woff2'); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg'),
+         url('../fonts/Gotham-Bold.ttf') format('truetype'),
+         url('../fonts/Gotham-Bold.woff') format('woff'),
+         url('../fonts/Gotham-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg'),
+         url('../fonts/Gotham-Light.ttf') format('truetype'),
+         url('../fonts/Gotham-Light.woff') format('woff'),
+         url('../fonts/Gotham-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--- End of Fonts ---*/
+
+/*--- Global---*/
+body{
+    background: url("../imgs/back_texture.jpg") center center/cover repeat;
+    font-family: 'Gotham', sans-serif !important;
+    color: #402414 !important;
+}
+h1, h2, h3, h4, h5, a, .textQuestion{
+    font-family: 'Gotham-Bold', sans-serif !important;
+    text-decoration: none;
+}
+input, textarea{
+    font-family: 'Gotham', sans-serif;   
+    color: #402414 !important;
+}
+h1, h2{
+    font-size: 20px !important;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 18px !important;
+    line-height: 20px;
+}
+h4{
+    font-size: 14px !important;
+    line-height: 14px;
+}
+h5, .textButton{
+    font-size: 10px !important;
+    line-height: 12px;
+}
+h5{
+    text-align: center;
+}
+p, a, .textQuestion, input, textarea{
+    font-size: 12px !important;
+    line-height: 12px;
+}
+a{
+    color: #402414 !important;
+    text-decoration: none !important;
+}
+
+@-webkit-keyframes autofill {
+    to {
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+.margenServicios, .margen{
+    padding: 0 30px;
+}
+.margenGranja{
+    padding: 0px 15px;
+}
+.margenTitulos{
+    text-align: center;
+    padding-top: 3.75rem;
+    margin-bottom: 1rem;;
+}
+/*--- End of Global ---*/
+
+/*--- Header ---*/
+header{
+    background-color: #C87337;
+    position: -webkit-sticky; /* Safari Support */
+    position: sticky;  
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+#mainNav{
+    height: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#mainNav a {
+    color: #FFF !important; 
+}
+#logoNav{
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    padding: 13px 18px;
+    margin-right: 0px;
+    background-color: #402414;
+}
+#logoNav img{
+    max-height: 48px;
+}
+.active{
+    background-color: #D2AD5D;
+}
+#promIcon{
+    position: absolute;
+    top: 40px;
+    right: 1.5rem;
+    background-color: #402414;
+    padding: 5px 8px;
+    margin: 0px !important;
+}
+#promIcon img{
+    max-height: 14px;
+}
+#hamburguerMenu .navbar-toggler-icon{
+    background-image: url("../icons/icon_hamburguer.svg");
+    max-width: 20px;
+}
+#menuList{
+    text-align: center;
+    background-color: #402414;
+}
+#menuList h4{
+    margin-bottom: 0px !important;
+    padding: .75rem 0rem;
+}
+#menuList a{
+    color: #FFF !important;
+}
+/*--- End of Header ---*/
+
+/*--- The Divide ---*/
+.divide{
+    height: 8px;
+    width: 100%;
+    margin: 0;
+}
+.divide div:nth-of-type(1){
+    background-color: #402414;
+}
+.divide div:nth-of-type(2){
+    background-color: #DCB860;
+}
+.divide div:nth-of-type(3){
+    background-color: #CA7337;
+}
+.divide div:nth-of-type(4){
+    background-color: #779C68;
+}
+/*--- End of The Divide ---*/
+
+/*--- Floating Items ---*/
+.floatEng{
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    z-index: 100;
+}
+.floatEng img{
+    max-width: 24px;
+    width: 24px;
+}
+.sidebarSocial{
+    width: 24px;
+    background-color: #402414;
+    position: fixed;
+    z-index: 100;
+    top: 40%;
+    right: 0px;
+}
+.sidebarItem{
+    height: 24px;
+    padding: 6px;
+}
+.sidebarItem img{
+    max-height: 12px;
+    height: 12px;
+    position: absolute;
+}
+.sidebarSocialAlt{
+    width: 128px;
+    background-color: #402414;
+    position: fixed;
+    z-index: 100;
+    bottom: 0px;
+    right: calc(50% - 64px);
+    left: calc(50% - 64px);
+}
+.sidebarItem{
+    display: flex;
+}
+.sidebarItem img{
+    position: static;
+}
+#shareButton, #shareButtonAlt{
+    cursor: pointer;
+}
+.insideEng{
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+}
+.insideEng img{
+    max-width: 24px;
+    width: 24px;
+}
+/*--- End of Floating Items ---*/
+
+/*--- Contact Modal ---*/
+.maps{
+    height: 180px;
+    width: 100%;
+    max-height: 540px;
+}
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input::placeholder, textarea::placeholder{
+    color: #402414 !important;
+    opacity: 1;
+}
+form input, form textarea {
+    padding: 10px 10px;
+    width: 100%;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #402414;
+    margin-bottom: 20px;
+}
+form textarea{
+    resize: none;
+    height: 124px;
+    margin-bottom: 0px;
+}
+#Enviar{
+    width: 152px;
+    margin: 0 auto;
+    background-color: #C87337;
+    color: #FFF !important;
+    border-style: none;
+    margin-top: 30px;
+}
+.containerLabelContact{
+    height: 100px;
+    padding: 14px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerWhatsApp{
+    display: flex;
+    justify-content: center;
+}
+/*--- End of Contact Modal ---*/
+
+#Btn_preguntas, #Btn_tarifa, #Btn_Reglamento{
+    cursor: pointer;
+}
+.centrarBotonCierre{
+    cursor: pointer;
+}
+
+.modalClipboard, .modalSent{
+    background-color: #402414;
+    position: fixed;
+    bottom: 25px;
+    right: 45px;
+    z-index: 100;
+    padding: 10px 10px;
+    display: none;
+}
+.modalClipboard div, .modalSent div{
+    background-color: #DCB860;
+    padding: 10px 15px;
+}
+.modalClipboard p, .modalSent p{
+    font-size: 8px !important;
+    margin: 0;
+}
+
+.animated {
+    transition-property: display;
+    transition-duration: 3s;
+}
+
+/*--- Animations ---*/
+@media only screen and (min-width: 992px) {
+    .bannerImg {
+        -webkit-animation: zoom 2s;
+        animation: zoom 2s;
+    }
+}
+-webkit-keyframes zoom {
+    from {
+    	-webkit-transform: scale(1.5,1.5);
+    }
+    to {
+    	-webkit-transform: scale(1,1);
+    }
+}
+@keyframes zoom {
+   from {
+        transform: scale(1.5,1.5);
+   }
+   to {
+        transform: scale(1,1);
+   }
+}
+
+header{
+    -webkit-animation: moverY 2s;
+    animation: moverY 2s;
+}
+@-webkit-keyframes moverY {
+    0% { transform: translateY(-80px); }
+    100% { transform: translateY(0px); }
+}
+@keyframes moverY {
+    0% { transform: translateY(-80px); }
+    100% { transform: translateY(0px); }
+}
+
+.sidebarSocial{
+    -webkit-animation: moverx 2s;
+    animation: moverx 2s;
+    /* position: absolute !important; */
+}
+@-webkit-keyframes moverx {
+    0% { transform: translateX(56px); }
+    100% { transform: translateX(0px); }
+}
+@keyframes moverx {
+    0% { transform: translateX(56px); }
+    100% { transform: translateX(0px); }
+}
+#navMenus .nav-link:hover{
+    background-color: #D2AD5D;
+}
+/*--- End of Animations ---*/
+
+@media only screen and (min-width: 414px){
+    /*--- Global---*/
+    .margenServicios{
+        padding: 0 60px;
+    }
+    .margen{
+        padding: 0 70px;;
+    }
+    .margenGranja{
+        padding: 0 24px;
+    }
+    /*--- End of Global ---*/
+
+    /*--- Floating Items ---*/
+    .floatEng img{
+        max-width: 32px;
+        width: 32px;
+    }
+    .sidebarSocial{
+        width: 32px;
+    }
+    .sidebarItem{
+        height: 32px;
+        padding: 8px;
+    }
+    .sidebarItem img{
+        max-height: 16px;
+        height: 16px;
+    }
+    .insideEng img{
+        max-width: 32px;
+        width: 32px;
+    }
+    /*--- End of Floating Items ---*/
+
+    /*--- Contact Modal ---*/
+    .maps{
+        height: 204px;
+    }
+    /*--- End of Contact Modal ---*/
+}
+
+/*--- Small Devices (sm) ---*/
+@media only screen and (min-width: 576px) {
+    /*--- Global---*/
+    h1, h2{
+        font-size: 24px !important;
+        line-height: 24px;
+    }
+    /*--- End of Global ---*/
+}
+/*--- End of Small Devices (sm) ---*/
+
+/*--- Medium Devices (md) ---*/
+@media only screen and (min-width: 768px) {
+    /*--- Global---*/
+    h1, h2{
+        font-size: 28px !important;
+        line-height: 28px;
+    }
+    h5, p, a, .textQuestion, input, textarea{
+        font-size: 13px !important;
+        line-height: 14px;
+    }
+    .textButton{
+        font-size: 16px !important;
+        line-height: 16px;
+    }
+    .margenServicios{
+        padding: 0 110px;
+    }
+    .margen{
+        padding: 0 126px;
+    }
+    .margenGranja{
+        padding: 0 90px;
+    }
+    .margenCabañas{
+        padding: 0 50px;
+    }
+    .margenTitulos{
+        padding-top: 4rem;
+        margin-bottom: 2.5rem;
+    }
+    /*--- End of Global ---*/
+
+    /*--- Header ---*/
+    #mainNav{
+        height: 50px;
+    }
+    #logoNav{
+        left: 32px;
+        padding: 15.5px 21.5px;
+    }
+    #logoNav img{
+        max-height: 59px;
+    }
+    #promIcon{
+        top: 50px;
+        padding: 7px 11px;
+    }
+    #promIcon img{
+        max-height: 24px;
+    }
+    /*--- End of Header ---*/
+
+    /*--- The Divide ---*/
+    .divide{
+        height: 10px;
+    }
+    /*--- End of The Divide ---*/
+
+    /*--- Contact Modal ---*/
+    .maps{
+        height: 342px;
+    }
+    #Enviar{
+        margin-right: 0;
+    }
+    .containerLabelContact{
+        height: 100%;
+    }
+    /*--- End of Contact Modal ---*/
+    .modalClipboard p, .modalSent p{
+        font-size: 10px !important;
+    }
+}
+/*--- End of Medium Devices (md) ---*/
+
+/*--- Large Devices (lg) ---*/
+@media only screen and (min-width: 992px) {
+    /*--- Global---*/
+    .textButton{
+        font-size: 13px !important;
+        line-height: 14px;
+    }
+    .margenServicios{
+        padding: 0 136px;
+    }
+    .margen, .margenCabañas{
+        padding: 0 58px;
+    }
+    .margenGranja{
+        padding: 0 168px;
+    }
+    .margenTitulos{
+        padding-top: 3.75rem;
+        margin-bottom: 2.875rem;
+    }
+    /*--- End of Global ---*/
+
+    /*--- Header ---*/
+    header a{
+        font-size: 14px !important;
+    }
+    #mainNav{
+        height: 40px;
+    }
+    #logoNav{
+        left: 30px;
+        padding: 14px 19px;
+    }
+    #logoNav img{
+        max-height: 52px;
+    }
+    #promIcon{
+        top: 40px;
+        right: 1.6rem;
+    }
+    #navMenus{
+        height: 100%;
+        padding-left: 9.625rem;
+    }
+    .nav-item a{
+        padding: 1rem 1.5rem 1.5rem 1.5rem !important;
+        margin-top: .5rem;
+    }
+    #navMenus .navbar-nav{
+        margin-right: 0px !important;
+    }
+    #navLanguages{
+        justify-content: center;
+    }
+    #mainNav #navLanguages img{
+        max-width: 26px;
+    }
+    /*--- End of Header ---*/
+
+    /*--- The Divide ---*/
+    .divide{
+        height: 12px;
+    }
+    /*--- End of The Divide ---*/
+
+    /*--- Contact Modal ---*/
+    .maps{
+        height: 308px;
+    }
+    form input, form textarea {
+        padding: 10px 15px;
+    }
+    /*--- End of Contact Modal ---*/
+}
+/*--- End of Large Devices (lg) ---*/
+
+/*--- Extra Large Devices (xl) ---*/
+@media only screen and (min-width: 1200px) {
+    /*--- Global---*/
+    h1, h2{
+        font-size: 40px !important;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 24px !important;
+        line-height: 24px;
+    }
+    h4{
+        font-size: 20px !important;
+        line-height: 20px;
+    }
+    h5{
+        font-size: 16px !important;
+        line-height: 18px;
+    }
+    p, a, .textQuestion, input, textarea{
+        font-size: 15px !important;
+        line-height: 16px;
+    }
+    .textButton{
+        font-size: 18px !important;
+        line-height: 18px;
+    }
+    .margenServicios{
+        padding: 0 220px;
+    }
+    .margen{
+        padding: 0 92px;
+    }
+    .margenGranja{
+        padding: 0 274px;
+    }
+    .margenCabañas{
+        padding: 0 134px;
+    }
+    .margenTitulos{
+        padding-top: 8.25rem;
+        margin-bottom: 3.25rem;
+    }
+    /*--- End of Global ---*/
+
+    /*--- Header ---*/
+    header a{
+        font-size: 18px !important;
+    }
+    #mainNav{
+        height: 60px;
+    }
+    #logoNav{
+        left: 60px;
+        padding: 20px 28px;
+    }
+    #logoNav img{
+        max-height: 74px;
+    }
+    #promIcon{
+        top: 60px;
+        padding: 10px 17px;
+        right: 2.75rem;
+    }
+    #promIcon img{
+        max-height: 32px;
+    }
+    #navMenus{
+        padding-left: 15.125rem;
+    }
+    .nav-item a{
+        padding: 1.5rem 1.5rem 2rem 1.5rem !important;
+    }
+    /*--- End of Header ---*/
+    
+    /*--- The Divide ---*/
+    .divide{
+        height: 18px;
+    }
+    /*--- End of The Divide ---*/
+
+    /*--- Floating Items ---*/
+    .sidebarSocial{
+        width: 40px;
+    }
+    .sidebarItem{
+        height: 40px;
+        padding: 10px;
+    }
+    .sidebarItem img{
+        max-height: 20px;
+        height: 20px;
+    }
+    /*--- End of Floating Items ---*/
+
+    /*--- Contact Modal ---*/
+    .maps{
+        height: 432px;
+    }
+    /*--- End of Contact Modal ---*/
+    
+    .modalClipboard p, .modalSent p{
+        font-size: 12px !important;
+    }
+}
+/*--- End of Extra Large Devices (xl) ---*/
+
+/*--- Full HD Devices ---*/
+@media only screen and (min-width: 1920px) {
+    /*--- Global---*/
+    h1, h2{
+        font-size: 50px !important;
+        line-height: 50px;
+    }
+    h3{
+        font-size: 30px !important;
+        line-height: 30px;
+    }
+    h4{
+        font-size: 26px !important;
+        line-height: 30px;
+    }
+    h5{
+        font-size: 20px !important;
+        line-height: 24px;
+    }
+    p, a, .textQuestion, input, textarea{
+        font-size: 18px !important;
+        line-height: 20px;
+    }
+    .textButton{
+        font-size: 24px !important;
+        line-height: 24px;
+    }
+    .margenServicios{
+        padding: 0 335px;
+    }
+    .margen{
+        padding: 0 154px;
+    }
+    .margenGranja{
+        padding: 0 434px;
+    }
+    .margenCabañas{
+        padding: 0 232px;
+    }
+    .margenTitulos{
+        padding-top: 5.875rem;
+        margin-bottom: 4rem;
+    }
+    /*--- End of Global ---*/
+
+    /*--- Header ---*/
+    header a{
+        font-size: 24px !important;
+    }
+    #mainNav{
+        height: 80px;
+    }
+    #logoNav{
+        left: 90px;
+        padding: 25px 36px;
+    }
+    #logoNav img{
+        max-height: 98px;
+    }
+    #promIcon{
+        top: 80px;
+        padding: 17px 22.5px;
+        right: 1.75rem;
+    }
+    #promIcon img{
+        max-height: 42px;
+    }
+    #navMenus{
+        padding-left: 20.875rem;
+    }
+    .nav-item a{
+        padding: 2.5rem 3rem 3rem 3rem !important;
+    }
+    #mainNav #navLanguages img{
+        max-width: 30px;
+    }
+    /*--- End of Header ---*/
+
+    /*--- The Divide ---*/
+    .divide{
+        height: 24px;
+    }
+    /*--- End of The Divide ---*/
+
+    /*--- Floating Items ---*/
+    .sidebarSocial{
+        width: 56px;
+    }
+    .sidebarItem{
+        height: 56px;
+        padding: 12px;
+    }
+    .sidebarItem img{
+        max-height: 32px;
+        height: 32px;
+    }
+    /*--- End of Floating Items ---*/
+
+    /*--- Contact Modal ---*/
+    .maps{
+        height: 540px;
+    }
+    form input, form textarea {
+        padding: 15px 15px;
+    }
+    /*--- End of Contact Modal ---*/
+    .modalClipboard p, .modalSent p{
+        font-size: 16px !important;
+    }
+}
+/*--- End of Full HD Devices ---*/
