@@ -91,6 +91,12 @@
  .img8{
      background: url("../imgs/Menu_LoveShack.jpg") center center/cover no-repeat;
  }
+ .img9{
+    background: url("../imgs/MenuCampoVerdeFamiliar.jpg") center center/cover no-repeat;
+}
+.img10{
+    background: url("../imgs/MenuHermanaGrande.jpg") center center/cover no-repeat;
+}
  @media only screen and (min-width: 414px){
      #logCabana img{
          max-width: 38px;
