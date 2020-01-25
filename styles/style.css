@@ -193,20 +193,23 @@ header{
     width: 24px;
 }
 .sidebarSocial{
-    width: 24px;
+    width: 30px;
     background-color: #402414;
     position: fixed;
     z-index: 100;
     top: 40%;
     right: 0px;
 }
+.colorWhatssap{
+    background-color: #779C68;
+}
 .sidebarItem{
-    height: 24px;
-    padding: 6px;
+    height: 30px;
+    padding: 8px;
 }
 .sidebarItem img{
-    max-height: 12px;
-    height: 12px;
+    max-height: 15px;
+    height: 15px;
     position: absolute;
 }
 .sidebarSocialAlt{
