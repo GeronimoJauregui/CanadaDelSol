@@ -36,7 +36,7 @@
 
 /*--- Global---*/
 body{
-    background: url("../imgs/back_texture.jpg") center center/cover repeat;
+    background: url("../imgs/back_texture.jpg") center center repeat;
     font-family: 'Gotham', sans-serif !important;
     color: #402414 !important;
 }

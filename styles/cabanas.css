@@ -6,7 +6,7 @@
      padding-bottom: 49.1px;
  }
  #fondoCabana{
-     background: url("../imgs/back_texture.jpg") center center/cover no-repeat;
+     background: url("../imgs/back_texture.jpg") center center repeat;
  }
  .posicionBandera{
      position: absolute;
