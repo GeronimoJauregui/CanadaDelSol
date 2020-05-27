@@ -1,9 +1,10 @@
 
 #fondopromociones{
-    background: url("../imgs/back_texture.jpg") center center/cover no-repeat;
+    background: url("../imgs/back_texture.jpg") center center/cover repeat;
 }
 .container_top{
     padding-top: 74.2px;
+    padding-bottom: 100%;
 }
 .tamFoto{
     height: 150px;
@@ -14,6 +15,9 @@
 }
 
 @media only screen and (min-width: 414px) {
+    #fondopromociones{
+        background: url("../imgs/back_texture.jpg") center center repeat;
+    }
     .tamFoto{
         height: 200px;
     }

@@ -1,7 +1,7 @@
 /* Style for "The Farm" */
 
 body{
-    background: url("../imgs/back_texture.jpg") center center repeat;
+    background: url("../imgs/back_texture.jpg") center center/cover repeat ;
 }
 .Titulo{
     padding-top: 53px;
@@ -79,6 +79,9 @@ body{
 
 /*--- Small Devices (sm) ---*/
 @media only screen and (min-width: 414px) {
+    body{
+        background: url("../imgs/back_texture.jpg") center center repeat ;
+    }
     .Titulo{
         padding-top: 49px;
         padding-bottom: 9.2px;
