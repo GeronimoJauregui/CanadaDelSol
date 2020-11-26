@@ -97,6 +97,12 @@
  .img10{
     background: url("../imgs/MenuHermanaGrande.jpg") center center/cover no-repeat;
  }
+ .img11{
+    background: url("../imgs/LasChelas1.jpeg") center center/cover no-repeat;
+ }
+ .img12{
+    background: url("../imgs/CampoVerdePlus1.jpeg") center center/cover no-repeat;
+ }
  @media only screen and (min-width: 414px){
      #logCabana img{
          max-width: 38px;
