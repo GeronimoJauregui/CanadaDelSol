@@ -103,6 +103,9 @@
  .img12{
     background: url("../imgs/CampoVerdePlus1.jpeg") center center/cover no-repeat;
  }
+ .img13{
+    background: url("../imgs/RomancePlus1.jpg") center center/cover no-repeat;
+ }
  @media only screen and (min-width: 414px){
      #logCabana img{
          max-width: 38px;
