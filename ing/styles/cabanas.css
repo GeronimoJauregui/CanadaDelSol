@@ -106,6 +106,9 @@
 .img13{
     background: url("../imgs/RomancePlus1.jpg") center center/cover no-repeat;
 }
+.img14{
+    background: url("../imgs/MenuRomanceDeluxe.jpg") center center/cover no-repeat;
+}
  @media only screen and (min-width: 414px){
      #logCabana img{
          max-width: 38px;
