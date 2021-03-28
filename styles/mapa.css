@@ -1,0 +1,119 @@
+/* Style for "The Farm" */
+
+body{
+    background: url("../imgs/back_texture.jpg") center center/cover repeat ;
+}
+.margenTop{
+    padding-top: 63px;
+}
+
+
+
+#container{
+    height: calc(100vh - 40px);
+}
+
+.bandera{
+    padding-top: 25%;
+    float: left;
+}
+
+.bandera img{
+    height: 22.46px;
+    width: 22.46px;
+
+}
+
+.sidebarSocial{
+    top: 60%;
+}
+
+/*--- Small Devices (sm) ---*/
+@media only screen and (min-width: 414px) {
+    body{
+        background: url("../imgs/back_texture.jpg") center center repeat ;
+    }
+    .margenTop{
+        padding-top: 58px;
+    }
+
+    .bandera{
+        padding-top: 95.6px;
+    }   
+
+    .bandera img{
+        height: 30px;
+        width: 30px;
+    }
+
+}
+/*--- End of Small Devices (sm) ---*/
+
+
+/*--- Medium Devices (md) ---*/
+@media only screen and (min-width: 768px) {
+
+    .sidebarSocial{
+        top: 65%;
+    }
+
+    #container{
+        height: calc(100vh - 50px);
+    }
+
+    .margenTop{
+        padding-top: 60px;
+    }
+
+}
+/*--- End of Medium Devices (md) ---*/
+
+/*--- Large Devices (lg)  Bootstrap ---*/
+@media only screen and (min-width: 992px) {
+    #container{
+        height: calc(100vh - 40px);
+    }
+
+    .margenTop{
+        padding-top: 40px;
+    }
+ 
+}
+/*--- End of Large Devices Bootstrap (lg) ---*/
+
+/*--- Extra Large Devices (xl) Bootstrap ---*/
+@media only screen and (min-width: 1200px) {
+
+    .sidebarSocial{
+        top: 40%;
+    }
+
+    #container{
+        height: calc(100vh - 60px);
+    }
+
+}
+/*--- End of Extra Large Devices (xl) Bootstrap ---*/
+
+/*--- Extra Large Devices (xl) ---*/
+@media only screen and (min-width: 1440px) {
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 188.66px;
+        height: 246.19px;
+    } 
+}
+/*--- End of Extra Large Devices (xl) ---*/
+
+/*--- Ful HD Devices (FHD) ---*/
+@media only screen and (min-width: 1920px){
+    #container{
+        height: calc(100vh - 80px);
+    }
+
+    .margenTop{
+        padding-top: 90px;
+    }
+
+}
+/*--- Full HD Devices (FHD) ---*/

@@ -91,6 +91,10 @@ input:-webkit-autofill {
 .margenServicios, .margen{
     padding: 0 30px;
 }
+.margenMapa{
+    padding: 0px 0px;
+}
+
 .margenGranja{
     padding: 0px 15px;
 }
@@ -389,6 +393,9 @@ header{
     .margenGranja{
         padding: 0 24px;
     }
+    .margenMapa{
+        padding: 0 9px;
+    }
     /*--- End of Global ---*/
 
     /*--- Floating Items ---*/
@@ -454,6 +461,9 @@ header{
     }
     .margenGranja{
         padding: 0 90px;
+    }
+    .margenMapa{
+        padding: 0 75px;
     }
     .margenCabañas{
         padding: 0 50px;
@@ -522,6 +532,9 @@ header{
     }
     .margenGranja{
         padding: 0 168px;
+    }
+    .margenMapa{
+        padding: 0 120px;
     }
     .margenTitulos{
         padding-top: 3.75rem;
@@ -619,6 +632,10 @@ header{
     .margenGranja{
         padding: 0 274px;
     }
+    .margenMapa{
+        padding: 0 180px;
+    }
+
     .margenCabañas{
         padding: 0 134px;
     }
@@ -725,6 +742,9 @@ header{
     }
     .margenGranja{
         padding: 0 434px;
+    }
+    .margenMapa{
+        padding: 0 250px;
     }
     .margenCabañas{
         padding: 0 232px;

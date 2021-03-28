@@ -10,26 +10,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--- Global Custom CSS --->
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../../styles/style.css">
 
     <!--- Custom CSS for this page --->
-    <link rel="stylesheet" href="../styles/promociones.css">
+    <link rel="stylesheet" href="../styles/mapa.css">
+
     <!--- Favicon --->
     <link rel="shortcut icon" type="image/png" href="../imgs/logo.png"/>
-    
 </head>
-<body>
+<body class="services">
     <header>
         <!--- Menu Mobile --->
         <div class="collapse d-lg-none" id="menuList">
-            <div><h4><a href="../index.html">Inicio</a></h4></div>
+            <div><h4><a href="../index.html">Home</a></h4></div>
             <div><h4><a href="camping.html">Camping</a></h4></div>
-            <div><h4><a href="cabanas.html">Cabañas</a></h4></div>
-            <div><h4><a href="lagranja.html">La Granja</a></h4></div>
-            <div><h4><a href="info.html">Tarifas</a></h4></div>
-            <div><h4><a href="galeria.html">Galería</a></h4></div>
-            <div><h4><a href="mapa.html">Mapa</a></h4></div>
-            <div><h4><a href="../index.html#Contact">Contacto</a></h4></div>
+            <div><h4><a href="cabanas.html">Cabins</a></h4></div>
+            <div><h4><a href="lagranja.html">The Farm</a></h4></div>
+            <div><h4><a href="info.html">Prices</a></h4></div>
+            <div><h4><a href="galeria.html">Gallery</a></h4></div>
+            <div><h4 class="active"><a href="map.html">Map</a></h4></div>
+            <div><h4><a href="../index.html#Contact">Contact us</a></h4></div>
         </div>
 
         <!--- Navbar Large Devices --->
@@ -40,33 +40,33 @@
             <div class="collapse navbar-collapse d-none d-lg-block" id="navMenus">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="camping.html">Camping</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cabanas.html">Cabañas</a>
+                        <a class="nav-link" href="cabanas.html">Cabins</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="lagranja.html">La granja</a>
+                        <a class="nav-link" href="lagranja.html">The Farm</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="info.html">Tarifas</a>
+                        <a class="nav-link" href="info.html">Prices</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galeria</a>
+                        <a class="nav-link" href="galeria.html">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="map.html">Map</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mapa.html">Mapa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html#Contact">Contacto</a>
+                        <a class="nav-link" href="../index.html#Contact">Contact us</a>
                     </li>
                 </ul>
             </div>
             <div class="collapse navbar-collapse d-none d-lg-block" id="navLanguages">
-                <a class="nav-link" href="../ing/templates/promociones.html"><img src="../icons/bandera_usa.svg"></a>
+                <a class="nav-link" href="../../templates/mapa.html"><img src="../icons/Bandera_mex.svg"></a>
             </div>
             
             <!--- Toogler Mobile Menu --->
@@ -74,46 +74,53 @@
             <button class="navbar-toggler d-lg-none" id="hamburguerMenu" type="button" data-toggle="collapse" data-target="#menuList" aria-controls="menuList" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!--- Icon Gift Fixed --->
+            <a  href="./promociones.html" id="promIcon"><img src="../icons/regalo.svg"></a>
         </nav>
     </header>
 
     <div id="floatingItems">
         <!--- Floating Language --->
-        <a class="floatEng d-lg-none" href="../ing/templates/promociones.html"><img src="../icons/bandera_usa.svg"></a>
+        <a class="floatEng d-lg-none" href="../../templates/mapa.html"><img src="../icons/Bandera_mex.svg"></a>
         <!--- Floating Social Sidebar --->
-        <div class="sidebarSocial">
+        <div class="sidebarSocial d-md-none d-lg-block">
             <div class="sidebarItem"><a href="https://www.facebook.com/CanadadelSol/?ref=br_rs" target="_blank"><img src="../icons/fb.svg"></a></div>
             <div class="sidebarItem"><a href="https://www.instagram.com/explore/locations/248431923/canada-del-sol/" target="_blank"><img src="../icons/ig.svg"></a></div>
             <div id="shareButton" class="sidebarItem"><img src="../icons/share.svg"></div>
             <div class="sidebarItem"><a href="tel:+526641294242"><img src="../icons/call.svg"></a></div>
-            <div class="sidebarItem colorWhatssap"><a href="https://api.whatsapp.com/send?text=Hola%20me%20gustaría%20recibir%20informes%20sobre%20las%20promociones.%20&amp;phone=+526643754850#" target="_blank"><img src="../icons/Logo_Whatsapp2.svg"></a></div>
+            <div class="sidebarItem colorWhatssap"><a href="https://api.whatsapp.com/send?text=Hello,%20I%20would%20like%20to%20receive%20information%20about%20the%20services.&amp;phone=+526643754850#" target="_blank"><img src="../icons/Logo_Whatsapp2.svg"></a></div>
+        </div>
+        <div class="sidebarSocialAlt d-none d-md-flex d-lg-none">
+            <div class="sidebarItem"><a href="https://www.facebook.com/CanadadelSol/?ref=br_rs" target="_blank"><img src="../icons/fb.svg"></a></div>
+            <div class="sidebarItem"><a href="https://www.instagram.com/explore/locations/248431923/canada-del-sol/" target="_blank"><img src="../icons/ig.svg"></a></div>
+            <div id="shareButtonAlt" class="sidebarItem"><img src="../icons/share.svg"></div>
+            <div class="sidebarItem"><a href="tel:+526641294242"><img src="../icons/call.svg"></a></div>
+            <div class="sidebarItem colorWhatssap"><a href="https://api.whatsapp.com/send?text=Hello,%20I%20would%20like%20to%20receive%20information%20about%20the%20services.&amp;phone=+526643754850#" target="_blank"><img src="../icons/Logo_Whatsapp2.svg"></a></div>
         </div>
     </div>
-    <div class="container-fluid margenGranja container_top" id="fondopromociones">
-        <div class="row">
+    
+    <div class="container-fluid margenMapa" id="container">
+        <div  class="margenTop">
+        </div>
+        <div class="row">     
             <div class="col-12">
-                <div class="row">
-                    <div class="col-12">
-                            <div class="tamFoto foto">
-                               
-                            </div>
-                            
-                    </div>
-                    
-                </div>
-                
+                <img src="../imgs/canada_plano.png" class="d-block w-100" alt="...">
             </div>
         </div>
-        
     </div>
 
-    
+    <div id="modalURL" class="modalClipboard animated">
+        <div>
+            <p>URL of page copied to clipboard</p>
+        </div>
+    </div>
 
     <!--- URL to clipboard --->
     <script src='../scripts/urlToClipboard.js'></script>
     <!--Alerts-->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <!--- Bootstrap JS --->
+    <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
