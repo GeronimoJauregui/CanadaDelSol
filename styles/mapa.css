@@ -4,7 +4,7 @@ body{
     background: url("../imgs/back_texture.jpg") center center/cover repeat ;
 }
 .margenTop{
-    padding-top: 63px;
+    padding-top: 50px;
 }
 
 
@@ -34,7 +34,7 @@ body{
         background: url("../imgs/back_texture.jpg") center center repeat ;
     }
     .margenTop{
-        padding-top: 58px;
+        padding-top: 50px;
     }
 
     .bandera{
@@ -75,7 +75,7 @@ body{
     }
 
     .margenTop{
-        padding-top: 40px;
+        padding-top: 60px;
     }
  
 }
@@ -98,10 +98,6 @@ body{
 /*--- Extra Large Devices (xl) ---*/
 @media only screen and (min-width: 1440px) {
 
-    .carousel-control-next-icon, .carousel-control-prev-icon {
-        width: 188.66px;
-        height: 246.19px;
-    } 
 }
 /*--- End of Extra Large Devices (xl) ---*/
 
