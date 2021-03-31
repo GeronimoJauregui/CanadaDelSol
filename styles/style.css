@@ -533,9 +533,6 @@ header{
     .margenGranja{
         padding: 0 168px;
     }
-    .margenMapa{
-        padding: 0 40px;
-    }
     .margenTitulos{
         padding-top: 3.75rem;
         margin-bottom: 2.875rem;
@@ -631,9 +628,6 @@ header{
     }
     .margenGranja{
         padding: 0 274px;
-    }
-    .margenMapa{
-        padding: 0 40px;
     }
 
     .margenCabañas{
