@@ -295,7 +295,7 @@ li.cafe{
         padding-bottom: 42.7px;
     }
     .containerTitulo{   /* Clase que tuve que modificar*/
-        width: 400px;
+        width: 450px;
         margin-left: 15px ;
         padding-bottom: 7.5px;
     }
@@ -412,7 +412,7 @@ li.cafe{
     }
     /*Titulo*/
     .containerTitulo{
-        width: 370px;
+        width: 450px;
         padding-bottom: 7px;
     }
     #log img{
@@ -547,7 +547,7 @@ li.cafe{
     }
     /*Titulo*/
     .containerTitulo{
-        width: 550px;
+        width: 650px;
         padding-bottom: 6.3px;
     }
     .padTitulo{             /* Clase nueva*/
@@ -663,7 +663,7 @@ li.cafe{
     }
     /*Titulo*/
     .containerTitulo{       /* Clase modificada*/
-        width: 650px;
+        width: 750px;
         padding-bottom: 10px;
     }
     .padTitulo{             /* Clase nueva*/
