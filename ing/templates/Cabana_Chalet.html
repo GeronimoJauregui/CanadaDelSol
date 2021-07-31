@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cañada del Sol</title>
+
+    <!--- Bootstrap CSS --->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--- Global Custom CSS --->
+    <link rel="stylesheet" href="../../styles/style.css">
+
+    <!--- Custom CSS for this page --->
+    <link rel="stylesheet" href="../styles/cabana_LasLilis.css">
+    <link rel="stylesheet" href="../styles/reglamento.css">
+    <link rel="stylesheet" href="../styles/politicas.css">
+    <!--- Favicon --->
+    <link rel="shortcut icon" type="image/png" href="../imgs/logo.png"/>
+    
+</head>
+<body>
+    <header>
+        <!--- Menu Mobile --->
+        <div class="collapse d-lg-none" id="menuList">
+            <div><h4><a href="../index.html">Home</a></h4></div>
+            <div><h4><a href="camping.html">Camping</a></h4></div>
+            <div><h4 class="active"><a href="cabanas.html">Cabins</a></h4></div>
+            <div><h4><a href="lagranja.html">The Farm</a></h4></div>
+            <div><h4><a href="info.html">Prices</a></h4></div>
+            <div><h4><a href="galeria.html">Gallery</a></h4></div>
+            <div><h4><a href="map.html">Map</a></h4></div>
+            <div><h4><a href="../index.html#Contact">Contact us</a></h4></div>
+        </div>
+
+        <!--- Navbar Large Devices --->
+        <nav class="navbar navbar-expand-lg" id="mainNav">
+            <a class="navbar-brand" href="#" id="logoNav">
+                <img src="../icons/logo.svg" alt="logoCañadaDelSol">
+            </a>
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navMenus">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="camping.html">Camping</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cabanas.html">Cabins</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lagranja.html">The Farm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#Contact">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navLanguages">
+                <a class="nav-link" href="../../templates/Cabana_Chalet.html"><img src="../icons/Bandera_mex.svg"></a>
+            </div>
+            
+            <!--- Toogler Mobile Menu --->
+            <div class="blankFlex d-lg-none"></div>
+            <button class="navbar-toggler d-lg-none" id="hamburguerMenu" type="button" data-toggle="collapse" data-target="#menuList" aria-controls="menuList" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--- Icon Gift Fixed --->
+            <a  href="./promociones.html" id="promIcon"><img src="../icons/regalo.svg"></a>
+        </nav>
+    </header>
+
+    <div id="floatingItems">
+        <!--- Floating Language --->
+        <!--- Floating Social Sidebar --->
+        <div class="sidebarSocial">
+            <div class="sidebarItem"><a href="https://www.facebook.com/CanadadelSol/?ref=br_rs" target="_blank"><img src="../icons/fb.svg"></a></div>
+            <div class="sidebarItem"><a href="https://www.instagram.com/explore/locations/248431923/canada-del-sol/" target="_blank"><img src="../icons/ig.svg"></a></div>
+            <div id="shareButton" class="sidebarItem"><img src="../icons/share.svg"></div>
+            <div class="sidebarItem"><a href="tel:+526641294242"><img src="../icons/call.svg"></a></div>
+            <div class="sidebarItem colorWhatssap"><a href="https://api.whatsapp.com/send?text=Hello,%20I%20would%20like%20to%20receive%20information%20about%20the%20Chalet%20cabin.&amp;phone=+526643754850#" target="_blank"><img src="../icons/Logo_Whatsapp2.svg"></a></div>
+        </div>
+    </div>
+
+    <div class="container-fluid margen containerMargin" id="fondo">
+        <div><a href="cabanas.html" class="IconoRegreso2"><img src="../icons/flecha atras.svg"></a></div>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                <div class="row">
+                    <!--- Imagen con boton --->
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-12">
+                        <!--- Titulo --->
+                        <div class="row ">
+                            <div class="containerTitulo">
+                                <div id="log" style="margin-bottom: 0px;"> <img src="../icons/cabana320.svg" alt="logocabana"><h1 class="padTitulo">CHALET CABIN</h1> </div>
+                            </div>
+                        </div>
+                        <!--- Fin Titulo --->
+                        <!--- Imagen --->
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-12"> 
+                                <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                                        <li data-target="#carouselIndicators" data-slide-to="4"></li>
+                                        <li data-target="#carouselIndicators" data-slide-to="5"></li>
+                                        <li data-target="#carouselIndicators" data-slide-to="6"></li>
+                                        <li data-target="#carouselIndicators" data-slide-to="7"></li>
+                                        <li data-target="#carouselIndicators" data-slide-to="8"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active ">
+                                            <img src="../imgs/CabanaChalet1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imgs/CabanaChalet2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imgs/CabanaChalet3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imgs/CabanaChalet4.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imgs/CabanaChalet5.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imgs/CabanaChalet6.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imgs/CabanaChalet7.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imgs/CabanaChalet8.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imgs/CabanaChalet9.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                                    </a>
+                                </div>
+                            </div>
+                            <div><a href="../../templates/Cabana_Chalet.html"><img class="posicion" src="../icons/Bandera_mex.svg"></a>
+                            </div>
+                        </div>
+                        <!---Fin Imagen --->
+                        <!--- Boton --->
+                        <div class="row">
+                            <div class="col-md-1 col-lg-2 col-xl-2"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-6 anchoBotonderecha">
+                                <a href="#" id="Btn_Politicas">
+                                    <div class="cuadroPoliticas flex">
+                                         <p class="textButton centrar" >Policies</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-6 anchoBotonizquierda">
+                                <!--- Poner el id en <a> --->
+                                <a href="#" id="Btn_Reglamento"> 
+                                    <div class="cuadroReglamento flex">
+                                        <p class="textButton centrar">Rules
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-1 col-lg-2 col-xl-2"></div>
+                        </div> 
+                        <!---Fin Boton --->
+                    </div>
+                    <!--- Fin imgen con boton --->
+
+                    <!--- Cuadro Naranja y Amarillo. Iconos --->
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-12">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-9 col-sm-12 col-12">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"  >
+                                        <div id="cuadroPrecio">
+                                            <div class="row">
+                                                <div class="col-7 col-sm-7 col-md-7 col-lg-7 cant">
+                                                    <span>$2,400</span>
+                                                </div>
+                                                <div class="col-5 col-sm-5 col-md-5 col-lg-5">
+                                                    <div class="row pesos">
+                                                        <span>pesos</span>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-lg-12 col-sm-12 porNoche">
+                                                            <p>per night</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="cuadroAmarillo">
+                                            <div class="row">
+                                                <div class="col-12" >
+                                                    <ul class="textCuadroAmarillo">
+                                                        <li class="cafe">Includes admission for 2 people per night.</li>
+                                                        <li class="cafe">Children ages 7 and up, count as a person in a cabin.</li>
+                                                        <li class="cafe">Additional person in cabin: $250.00</li>
+                                                    </ul> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div id="cuadroNaranja">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <ul class="textCuadroNaranja">
+                                                        <li class="blanca">Check-in 2:00 p.m. / Check-out 12:00 p.m.</li>
+                                                        <li class="blanca">After your check-out you have the option to remain in the site until 7:00 p.m. paying $150.00 pesos per person.</li>
+                                                        <li class="blanca">It is necessary to vacate the cabin at 12:00 p.m.</li>
+                                                        <li class="blanca">Access to the pool is available from March 19 to October 31, 2021</li>
+                                                    </ul>
+                                                </div>
+                                            </div>  
+                                            
+                                            <!---hover Asador-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Asador cuadroCafe">The cabins has its grill, a bench and bonfire outside.</div>
+                                            <!---Fin hover Asador-->
+                                            <!---hover estufa-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Estufa cuadroCafe">Stove with a burner.</div>
+                                            <!---Fin hover estufa-->
+                                            <!---hover agua-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Agua cuadroCafe">Full bathroom with shower with hot water.</div>
+                                            <!---Fin hover agua-->
+                                            <!---hover basquetbol-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Basquetbol cuadroCafe">Includes the use of sports fields.</div>
+                                            <!---Fin hover basquetbol-->
+                                            <!---hover granja-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Granja cuadroCafe">Includes visit to the farm.</div>
+                                            <!---Fin hover granja-->
+                                            <!---hover juegos-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Juegos cuadroCafe">Includes the use of playgrounds.</div>
+                                            <!---Fin hover juegos-->
+                                            <!---hover Cama-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Cama cuadroCafe">It is equipped with a queen bed with two fans</div>
+                                            <!---Fin hover cama-->
+                                            <!---hover comedor-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Comedor cuadroCafe">Bench with two deck chairs.</div>
+                                            <!---Fin hover comedor-->
+                                            <!---hover alberca-->
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Alberca cuadroCafe">Includes the use of the pool.<br>Only available<br>March 19 - October 31 (2021)</div>
+                                            <!---Fin hover alberca-->
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <!--- iconos --->
+                            <div class="col-xl-12 col-lg-12 col-md-3 col-sm-12 col-12 topIcons tamIcons">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3 col-md-6 col-4 col-sm-4 padIcons1 padIcon1"> 
+                                        <a class="Bt_asador"><img src="../icons/Bt_asador.svg"></a>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-6 col-4 col-sm-4 padIcons2">
+                                        <a class="Bt_estufa"><img src="../icons/Bt_Agenda.svg"></a>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-6 col-4 col-sm-4 padIcons3">
+                                        <a class="Bt_agua"><img src="../icons/Bt_Agua.svg"></a>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-6 col-4 col-sm-4 padIcons4 pad0LeftandRight">
+                                        <a class="Bt_basquetbol"><img src="../icons/Bt_Basket.svg"></a>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-6 col-4 col-sm-4 padIcons5 padIcon5">
+                                        <a class="Bt_granja"><img src="../icons/Bt_la_granja.svg"></a>
+                                    </div>
+                                    
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-4 col-sm-4 padIcons6 padIcon1">
+                                        <a class="Bt_juegos"><img src="../icons/Bt_juegos_Infantiles.svg"></a>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-6 col-4 col-sm-4 padIcons7">
+                                        <a class="Bt_cama"><img src="../icons/Bt_Bancas.svg"></a>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-6 col-4 col-sm-4 padIcons8">
+                                        <a class="Bt_comedor"><img src="../icons/Bt_comedor.svg"></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-4 col-sm-4 padIcons9">
+                                        <a class="Bt_alberca"><img src="../icons/Bt_alberca.svg"></a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <!--- Fin iconos --->
+                        </div>
+                    </div>
+                    <!--- Fin Cuadro Naranja y Amarillo. Iconos --->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 ">
+                <a href="cabanas.html" class="IconoRegreso"><img src="../icons/flecha atras.svg"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Modal_Reglamento" class="modal cerrar_reglamento">
+        <div class="modal-content">
+            <div class="modal-body fondoInferiorCafe margenExterno">
+                <div class="fondoMedioCrema margenModal">
+                    <div class="col-12 col-lg-12 col-xl-12 margenesInternos" id="fondoModal">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-xl-12 centrarTitulo">
+                                <h3>Rules</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-xl-6">
+                                <div class="GothamBold">Pool Access</div>
+                                <div class="GothamMedium">Pool hours are from 10:00a.m, to 7:00p.m.<br>
+                                The use of t-shirts,denim or cotton clothing is not allowed in the pool. <br>
+                                It is necessary to wear appropriate clothing for the use pool.<br>
+                                Do not run near the pool r play rough.<br>
+                                No diving.<br>
+                                Access to the pool is available from March 19 to October 31, 2021<br>
+                                </div>
+                                <br>
+                                <div class="GothamBold">Music</div>
+                                <div class="GothamMedium">Music is allowed from 10:00 a.m. - 10:00 p.m. <br>
+                                During the day the volume of the music should be moderate and just for your camp. <br>
+                                Live music is prohibited (musical groups, example: Band) <br>
+                                </div>
+                                <br>
+                                <div class="GothamBold">Motorcycles </div>
+                                <div class="GothamMedium">Motorcycles, ATV´s y UTV’s hours are from 9:00a.m. to 7:00p.m. <br>
+                                Motorcycles, ATV´s and UTV’s are only allowed on the track. <br>
+                                For no reason should motorcycles travel more than 10km/hr to leave their campto the track.<br>
+                                </div>
+                                <br>
+                                <div class="GothamBold">Glass Bottles</div>
+                                <div class="GothamMedium">It is not allowed to introduce glass bottles or containers in the pool area. 
+                                </div>
+                                <br>
+                                <div class="GothamBold">12 and under </div>
+                                <div class="GothamMedium">Must always have to be accompanied by an adult.
+                                </div>
+                                <br>
+                                <div class="GothamBold">Firewood</div>
+                                <div class="GothamMedium">It is not allowed to cut firewood, brenches,shrubs,trees,etc. 
+                                </div>
+                                <br>
+                            </div>
+                            
+                            <div class="col-12 col-lg-6 col-xl-6">
+                                <div class="row">
+                                    <div class="col-lg-1" style="padding-left: 0px; padding-right: 0px;">
+                                        <div class="row divide"></div>
+                                    </div>
+                                    <div class="col-lg-10 col-xl-10 padleftandRight0">
+                                        <div class="GothamBold">Paints</div>
+                                        <div class="GothamMedium">The use of paints or graffiti is not allowed.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Drugs</div>
+                                        <div class="GothamMedium">It is not allowed to introduce or use drugs.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Fireworks </div>
+                                        <div class="GothamMedium">It is not allowed to introduce or detonate Fireworks.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Firearms</div>
+                                        <div class="GothamMedium">It is not allowed introduce or detonate firearms,pellets,ammunition or paintball.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Camping</div>
+                                        <div class="GothamMedium">Camping or parking in cabin áreas is not allowed.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Horses/Ponies </div>
+                                        <div class="GothamMedium">It ir not allowed to run or trot with horses or ponies, they are only for walking. 
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Grills </div>
+                                        <div class="GothamMedium">Two grills are not allowed when parking a single car.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Benches </div>
+                                        <div class="GothamMedium">It is not allowed to move benches without authorization.
+                                        </div>
+                                        <br>
+                                        <div class="GothamBold">Pets</div>
+                                        <div class="GothamMedium">If your pet chases the farm animals, you should put it on a leash. Inside the cabins, pets must sleep in their bed or cage. It is your obligation to clean any areas that your pet gets dirty.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12 col-xl-12 centrarBotonCierre">
+                    <span class="centrarBotonCierre"><img src="../icons/x_amarilla.svg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Modal_Politicas" class="modal cerrar_politicas">
+        <div class="modal-content">
+            <div class="modal-body fondoInferiorCafe margenExternoVerde">
+                <div class="fondoMedioVerde margenModalVerde">
+                    <div class="col-12 col-lg-12 col-xl-12 margenesInternosVerde" id="fondo">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-xl-12 centrarTituloVerde">
+                                <h3>Cancellation and reservation policies.</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="GothamMedium">You must bring your reservation confirmation printed.<br>
+                                    <div class="col-12 separacion">
+                                        <div class="row divideVerde"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="GothamMedium">In case you cannot attend on the reserved date, you must give notice 15 days in advance nd there is a 25% charge of the total amount.<br>
+                                    <div class="col-12 separacion">
+                                        <div class="row divideVerde"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="GothamMedium">In case of no show, there are no refunds or changes. We promote a family environment.<br>
+                                    <div class="col-12 separacion">
+                                        <div class="row divideVerde"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="GothamMedium">In case of violation of this, the company may demand de eviction of the facilities witgout any refunt.<br>
+                                    <div class="col-12 separacion">
+                                        <div class="row divideVerde"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="GothamMedium">In case of refusal to comply this, we will inform the competent authorities.<br>
+                                </div>
+                                <br>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12">
+                    <div class="centrarBotonCierreVerde"><img src="../icons/x_verde.svg"></div>
+                </div>
+        </div>
+    </div>
+
+    <div id="modalURL" class="modalClipboard animated">
+        <div>
+            <p>URL of page copied to clipboard</p>
+        </div>
+    </div>
+
+    <!--- URL to clipboard --->
+    <script src='../scripts/urlToClipboard.js'></script>
+    <!--Alerts-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--- Hover --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/funcionalidadCabana_CampoVerde.js"></script>
+    <script type="text/javascript" src="../scripts/Modals.js"></script>
+    <!--- Bootstrap JS --->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
