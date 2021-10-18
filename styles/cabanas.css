@@ -115,6 +115,9 @@
  .img16{
     background: url("../imgs/MenuCabanaChalet.jpg") center center/cover no-repeat;
  }
+ .img17{
+    background: url("../imgs/Portada_LosPadres.jpg") center center/cover no-repeat;
+ }
  @media only screen and (min-width: 414px){
      #logCabana img{
          max-width: 38px;
