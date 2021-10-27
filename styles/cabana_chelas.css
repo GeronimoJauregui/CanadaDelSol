@@ -1,0 +1,19 @@
+.containerTitulo{ /* Clase que tuve que modificar*/
+    width: 255px !important;
+}
+@media only screen and (min-width: 576px){
+    /*Titulo*/
+    .containerTitulo{
+        width: 300px !important;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .containerTitulo{
+        width: 550px !important;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .containerTitulo{
+        width: 700px !important;
+    }
+}
