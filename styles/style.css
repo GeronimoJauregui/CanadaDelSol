@@ -327,6 +327,34 @@ form textarea{
     transition-duration: 3s;
 }
 
+.backgroundCafe {
+    background-color: #402414;
+}
+
+.padding-icon {
+    padding: 7px 15px;
+}
+
+.padding-two-div {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.text-icon-title {
+    color: #d2ad5d;
+    font-size: 10px !important;
+    font-weight: normal !important;
+    margin: 0px;
+}
+
+.text-ico-subtitle {
+    font-size: 7px !important;
+}
+
+.aling-vertical {
+    display: flex;
+    align-items: center;
+}
 /*--- Animations ---*/
 @media only screen and (min-width: 992px) {
     .bannerImg {
@@ -427,6 +455,12 @@ header{
     /*--- End of Contact Modal ---*/
 }
 
+@media only screen and (min-width: 514px){
+    .aling-vertical {
+        padding-left: 6px;
+    }
+}
+
 /*--- Small Devices (sm) ---*/
 @media only screen and (min-width: 576px) {
     /*--- Global---*/
@@ -435,9 +469,22 @@ header{
         line-height: 24px;
     }
     /*--- End of Global ---*/
+    .aling-vertical {
+        padding-left: 10px;
+    }
 }
 /*--- End of Small Devices (sm) ---*/
-
+@media only screen and (min-width: 650px) {
+    /*--- Global---*/
+    h1, h2{
+        font-size: 24px !important;
+        line-height: 24px;
+    }
+    /*--- End of Global ---*/
+    .aling-vertical {
+        padding-left: 0px;
+    }
+}
 /*--- Medium Devices (md) ---*/
 @media only screen and (min-width: 768px) {
     /*--- Global---*/
@@ -590,6 +637,9 @@ header{
         padding: 10px 15px;
     }
     /*--- End of Contact Modal ---*/
+    .aling-vertical {
+        padding-left: 6px;
+    }
 }
 /*--- End of Large Devices (lg) ---*/
 
@@ -698,8 +748,30 @@ header{
     .modalClipboard p, .modalSent p{
         font-size: 12px !important;
     }
+
+    .aling-vertical {
+        padding-left: 2px;
+    }
 }
 /*--- End of Extra Large Devices (xl) ---*/
+
+@media only screen and (min-width: 1400px) {
+    .aling-vertical {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .aling-vertical {
+        margin: -10px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .aling-vertical {
+        margin: -20px;
+    }
+}
 
 /*--- Full HD Devices ---*/
 @media only screen and (min-width: 1920px) {
