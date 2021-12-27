@@ -132,7 +132,7 @@ li.cafe{
 
 /* Style for "Path 89" */
 .tamIcons img{
-    max-width: 50px
+    max-width: 25px
 }
 .topIcons{
     padding-top: 40px;
@@ -559,9 +559,6 @@ li.cafe{
     #cuadroNaranja {
         height: 110px;
     }
-    .tamIcons img{
-        max-width: 54px
-    }
     .padIcons1 img{
         display: block;
         margin-left: auto;
@@ -768,9 +765,6 @@ li.cafe{
     .padVinetaInd4{
         position: relative;
         top: 37px;
-    }
-    .tamIcons img{
-        max-width: 69.4px
     }
     .topIcons{
         padding-top: 60px;

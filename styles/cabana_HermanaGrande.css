@@ -30,7 +30,7 @@
 /*bandera*/
 .posicion{
     position: absolute;
-    top: 74%;
+    top: 63%;
     left: 87%;
     z-index: 100;
     max-width: 22.46px;
@@ -151,7 +151,7 @@ li.cafe{
 
 /* Iconos */
 .tamIcons img{
-    max-width: 50px
+    max-width: 25px
 }
 .topIcons{
     padding-top: 32.4px;
@@ -503,9 +503,6 @@ li.cafe{
         padding-right: 22.8px;
         padding-left: 21px;
     }
-    .tamIcons img{
-        max-width: 50px
-    }
     .topIcons{
         padding-top: 42.8px;
     }
@@ -634,9 +631,6 @@ li.cafe{
         padding-right: 27px;
         padding-left: 30.8px;
     }
-    .tamIcons img{
-        max-width: 54.1px
-    }
     .topIcons{
         padding-top: 46.5px;
     }
@@ -754,9 +748,6 @@ li.cafe{
         line-height: 25px;
         padding-right: 30px;
         padding-left: 39.8px;
-    }
-    .tamIcons img{
-        max-width:  69.67px
     }
     .topIcons{
         padding-top: 60px;

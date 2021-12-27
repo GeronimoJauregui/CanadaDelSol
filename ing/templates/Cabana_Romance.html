@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="../styles/politicas.css">
     <!--- Favicon --->
     <link rel="shortcut icon" type="image/png" href="../imgs/logo.png"/>
-    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../../styles/slide.css">
 </head>
 <body>
    <header>
@@ -111,47 +112,62 @@
                         <!--- Imagen --->
                         <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-12"> 
-                                <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselIndicators" data-slide-to="2"></li>
-                                        <li data-target="#carouselIndicators" data-slide-to="3"></li>
-                                        <li data-target="#carouselIndicators" data-slide-to="4"></li>
-                                        <li data-target="#carouselIndicators" data-slide-to="5"></li>
-                                        <li data-target="#carouselIndicators" data-slide-to="6"></li>
-                                        <li data-target="#carouselIndicators" data-slide-to="7"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active ">
-                                           <img src="../imgs/Ft_C_Romance1.jpg" class="d-block w-100" alt="...">
+                                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                                    class="swiper mySwiper2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance1.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="carousel-item">
+                                        <div class="swiper-slide">
                                             <img src="../imgs/Ft_C_Romance2.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="carousel-item">
+                                        <div class="swiper-slide">
                                             <img src="../imgs/Ft_C_Romance3.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="carousel-item">
+                                        <div class="swiper-slide">
                                             <img src="../imgs/Ft_C_Romance4.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="carousel-item">
+                                        <div class="swiper-slide">
                                             <img src="../imgs/Ft_C_Romance5.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="carousel-item">
+                                        <div class="swiper-slide">
                                             <img src="../imgs/Ft_C_Romance6.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="carousel-item">
+                                        <div class="swiper-slide">
                                             <img src="../imgs/Ft_C_Romance7.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="carousel-item">
+                                        <div class="swiper-slide">
                                             <img src="../imgs/Ft_C_Romance8.jpg" class="d-block w-100" alt="...">
                                         </div>
                                     </div>
-                                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                                    </a>
+                                </div>
+                                <div thumbsSlider="" class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance4.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance5.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance6.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance7.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../imgs/Ft_C_Romance8.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div><a href="../../templates/Cabana_Romance.html"><img class="posicion" src="../icons/Bandera_mex.svg"></a>
@@ -186,7 +202,7 @@
                     <!--- Cuadro Naranja y Amarillo. Iconos --->
                     <div class="col-xl-5 col-lg-5 col-md-12 col-12">
                         <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-9 col-sm-12 col-12">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div class="row">
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"  >
                                         <div id="cuadroPrecio">
@@ -226,74 +242,98 @@
                                                     <li class="blanca">Check-in 2:00 p.m. / Check-out 12:00 p.m.</li>
                                                     <li class="blanca">After your check-out you have the option to remain in the site until 7:00 p.m. paying $150.00 pesos per person.</li>
                                                     <li class="blanca">It is necessary to vacate the cabin at 12:00 p.m.</li>
-                                                    <li class="blanca">Access to the pool is available from March 19 to October 31, 2021</li>
+                                                    <li class="blanca">Access to the pool is available from March 19 to October 31, 2022</li>
                                                     </ul>
                                                 </div>
-                                            </div>  
-                                            
-                                            <!---hover Asador-->
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Asador cuadroCafe">
-                                            The cabins has its grill and outdoor seating.</div>
-                                  
-                                            <!---Fin hover Asador-->
-                                            <!---hover Chimenea-->
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Chimenea cuadroCafe">The cabin has fireplace. Firewood in not included.</div>
-                                            <!---Fin hover Chimenea-->
-                                            <!---hover agua-->
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Agua cuadroCafe">The cabin has a bathroom with shower and hot water.</div>
-                                            <!---Fin hover agua-->
-                                            <!---hover basquetbol-->
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Basquetbol cuadroCafe">Includes the use of sports fields.</div>
-                                            <!---Fin hover basquetbol-->
-                                            <!---hover granja-->
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Granja cuadroCafe">Includes visit to the farm.</div>
-                                            <!---Fin hover granja-->
-                                            <!---hover juegos-->
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Juegos cuadroCafe">Includes the use of playgrounds.</div>
-                                            <!---Fin hover juegos-->
-                                            <!---hover Cama-->
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Cama cuadroCafe">The cabin has a queen bed with bedding.</div>
-                                            <!---Fin hover cama-->
-                                            <!---hover alberca-->
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 Alberca cuadroCafe">Includes the use of the pool.<br>Only available<br>March 19 - October 31 (2021)</div>
-                                            <!---Fin hover alberca-->
+                                            </div>
                                         </div> 
                                     </div>
                                 </div>
                             </div>
                             <!--- iconos --->
                             
-                            <div class="col-xl-12 col-lg-12 col-md-3 col-sm-12 col-12 topIcons tamIcons">
-                                <div class="row">
-                                    <div class="col-xl-2 col-lg-2"></div>
-                                    <div class="col-xl-2 col-lg-2 col-md-6 col-3 col-sm-3 padIcons1"> 
-                                        <a class="Bt_asador"><img src="../icons/Bt_asador.svg"></a>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 topIcons tamIcons">
+                                <div class="row padding-two-div">
+                                    <div class="col-12 backgroundCafe padding-icon">
+                                        <div class="row">
+                                            <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                                                <div class="row">
+                                                    <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_asador.svg"></div>
+                                                    <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                                                        <p class="text-icon-title">Grill
+                                                        <p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                                                <div class="row">
+                                                    <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_Chimenea.svg"></div>
+                                                    <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                                                        <p class="text-icon-title">Fireplace
+                                                        <p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                                                <div class="row">
+                                                    <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_Agua.svg"></div>
+                                                    <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                                                        <p class="text-icon-title">Full bathroom
+                                                        <p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                                                <div class="row">
+                                                    <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_Basket.svg"></div>
+                                                    <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                                                        <p class="text-icon-title">Sports fields
+                                                        <p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                                                <div class="row">
+                                                    <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_juegos_Infantiles.svg">
+                                                    </div>
+                                                    <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                                                        <p class="text-icon-title">Playgrounds
+                                                        <p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                                                <div class="row">
+                                                    <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_la_granja.svg"></div>
+                                                    <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                                                        <p class="text-icon-title">Visit the farm
+                                                        <p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                                                <div class="row">
+                                                    <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_Bancas.svg"></div>
+                                                    <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                                                        <p class="text-icon-title">Bedroom
+                                                        <p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                                                <div class="row">
+                                                    <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_alberca.svg"></div>
+                                                    <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                                                        <p class="text-icon-title">
+                                                            Pool access
+                                                            <br>
+                                                            <spam class="text-ico-subtitle">March 19 - October 31 (2022)</spam>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-xl-2 col-lg-2 col-md-6 col-3 col-sm-3 padIcons2">
-                                        <a class="Bt_chimenea"><img src="../icons/Bt_Chimenea.svg"></a>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-2 col-md-6 col-3 col-sm-3 padIcons3">
-                                        <a class="Bt_agua"><img src="../icons/Bt_Agua.svg"></a>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-2 col-md-6 col-3 col-sm-3 padIcons4">
-                                        <a class="Bt_basquetbol"><img src="../icons/Bt_Basket.svg"></a>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-2"></div>
-                                    <div class="col-xl-2 col-lg-2"></div>
-                                    <div class="col-xl-2 col-lg-2 col-md-6 col-3 col-sm-3 padIcons5">
-                                        <a class="Bt_granja"><img src="../icons/Bt_la_granja.svg"></a>
-                                    </div>
-                                    
-                                    <div class="col-xl-2 col-lg-2 col-md-6 col-3 col-sm-3 padIcons6">
-                                        <a class="Bt_juegos"><img src="../icons/Bt_juegos_Infantiles.svg"></a>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-2 col-md-6 col-3 col-sm-3 padIcons7">
-                                        <a class="Bt_cama"><img src="../icons/Bt_Bancas.svg"></a>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-2 col-md-6 col-3 col-sm-3 padIcons8">
-                                        <a class="Bt_alberca"><img src="../icons/Bt_alberca.svg"></a>
-                                    </div>
-                                    <div class="col-xl-2 col-lg-2"></div>
                                 </div>
                             </div>
                             
@@ -330,7 +370,7 @@
                                 It is necessary to wear appropriate clothing for the use pool.<br>
                                 Do not run near the pool r play rough.<br>
                                 No diving.<br>
-                                Access to the pool is available from March 19 to October 31, 2021<br>
+                                Access to the pool is available from March 19 to October 31, 2022<br>
                                 </div>
                                 <br>
                                 <div class="GothamBold">Music</div>
@@ -481,5 +521,22 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 8,
+            slidesPerView: 8,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            spaceBetween: 8,
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
 </body>
 </html>
