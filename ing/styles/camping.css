@@ -92,7 +92,7 @@ li.cafe{
 
 /* Style for "Cuadro_Ama" */
 #cuadroAmarillo {
-  height: 89px;
+  height: 180px;
   background-color: #d2ad5d;
 }
 .vineta img{
@@ -257,6 +257,10 @@ li.cafe{
     .acceso {
         padding-top: 15px;
     }
+    #cuadroAmarillo {
+        height: 150px;
+        background-color: #d2ad5d;
+    }
 }
 @media only screen and (min-width: 414px){
     #logCamping img{
@@ -322,7 +326,7 @@ li.cafe{
         line-height: 10px;
     }
     #cuadroAmarillo {
-      height: 92px;
+      height: 140px;
     }
     #cuadroNaranja {
         height: 81px;
@@ -463,7 +467,7 @@ li.cafe{
         margin-top: 50px;
     }
     #cuadroAmarillo {
-      height: 93px;
+      height: 160px;
     }
     .costoPorPersona {
         font-size: 13px;
@@ -611,7 +615,7 @@ li.cafe{
         line-height: 10px;
     }
     #cuadroAmarillo {
-      height: 125px;
+      height: 180px;
     }
     #cuadroNaranja {
         height: 110px;
@@ -781,7 +785,7 @@ li.cafe{
         height: 20px;
     }
     #cuadroAmarillo {
-      height: 161px;
+      height: 240px;
     }
     #cuadroNaranja {
         position: relative;
