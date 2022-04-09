@@ -92,7 +92,7 @@ li.cafe{
 
 /* Style for "Cuadro_Ama" */
 #cuadroAmarillo {
-  height: 180px;
+  height: 120px;
   background-color: #d2ad5d;
 }
 .vineta img{
@@ -258,7 +258,7 @@ li.cafe{
         padding-top: 15px;
     }
     #cuadroAmarillo {
-        height: 150px;
+        height: 120px;
         background-color: #d2ad5d;
     }
 }
@@ -326,7 +326,7 @@ li.cafe{
         line-height: 10px;
     }
     #cuadroAmarillo {
-      height: 140px;
+      height: 120px;
     }
     #cuadroNaranja {
         height: 81px;
@@ -467,7 +467,7 @@ li.cafe{
         margin-top: 50px;
     }
     #cuadroAmarillo {
-      height: 160px;
+      height: 125px;
     }
     .costoPorPersona {
         font-size: 13px;
@@ -615,7 +615,7 @@ li.cafe{
         line-height: 10px;
     }
     #cuadroAmarillo {
-      height: 180px;
+      height: 150px;
     }
     #cuadroNaranja {
         height: 110px;
@@ -785,7 +785,7 @@ li.cafe{
         height: 20px;
     }
     #cuadroAmarillo {
-      height: 240px;
+      height: 200px;
     }
     #cuadroNaranja {
         position: relative;

@@ -93,7 +93,7 @@ li.cafe{
 
 /* Style for "Cuadro_Ama" */
 #cuadroAmarillo {
-  height: 175px;
+  height: 120px;
   background-color: #d2ad5d;
 }
 /* Style for "Costo por" */
@@ -289,7 +289,7 @@ li.cafe{
         line-height: 10px;
     }
     #cuadroAmarillo {
-      height: 150px;
+      height: 110px;
     }
     #cuadroNaranja {
         height: 81px;
@@ -418,7 +418,7 @@ li.cafe{
         margin-top: 50px;
     }
     #cuadroAmarillo {
-      height: 160px;
+      height: 110px;
     }
     .costoPorPersona {
         font-size: 13px;
@@ -554,7 +554,7 @@ li.cafe{
         line-height: 10px;
     }
     #cuadroAmarillo {
-      height: 210px;
+      height: 135px;
     }
     #cuadroNaranja {
         height: 110px;
@@ -724,7 +724,7 @@ li.cafe{
         height: 20px;
     }
     #cuadroAmarillo {
-      height: 240px;
+      height: 170px;
     }
     #cuadroNaranja {
         position: relative;
