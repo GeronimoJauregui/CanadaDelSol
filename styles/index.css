@@ -5,6 +5,7 @@ body{
 /*--- Banner ---*/
 #bannerHome{
     padding: 0px;
+    margin-bottom: -6px;
 }
 /*--- End of Banner ---*/
 

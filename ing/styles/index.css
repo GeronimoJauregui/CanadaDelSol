@@ -5,13 +5,7 @@ body{
 /*--- Banner ---*/
 #bannerHome{
     padding: 0px;
-}
-.bannerImg{
-    height: calc(100vh - 40px);
-    background-color: #6389D4;
-    background-image: url("../imgs/Portada_frente_movil.png");
-    background-repeat: no-repeat;
-    background-position: bottom center;
+    margin-bottom: -6px;
 }
 /*--- End of Banner ---*/
 
@@ -90,6 +84,17 @@ h5{
 }
 /*--- End of Contact ---*/
 
+#video_background {
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
 @media only screen and (min-width: 414px) {
     #services{
         background: url("../imgs/corner_top.svg") top left/25% no-repeat, url("../imgs/corner_bottom.svg") bottom right/25% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
@@ -125,12 +130,6 @@ h5{
 
 /*--- Medium Devices (md) ---*/
 @media only screen and (min-width: 768px) {
-    /*--- Banner ---*/
-    .bannerImg{
-        background-image: url("../imgs/Portada_frente_tablet.png");
-    }
-    /*--- End of Banner ---*/
-
     /*--- Services ---*/
     #services{
         background: url("../imgs/corner_top.svg") top left/20% no-repeat, url("../imgs/corner_bottom.svg") bottom right/20% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
@@ -151,13 +150,6 @@ h5{
 
 /*--- Large Devices (lg) ---*/
 @media only screen and (min-width: 992px) {
-    /*--- Banner ---*/
-    .bannerImg{
-        background-image: url("../imgs/Portada_frente_1920.png");
-        background-size: cover;
-    }
-    /*--- End of Banner ---*/
-
     /*--- Services ---*/
     #services{
         background: url("../imgs/corner_top.svg") top left/15% no-repeat, url("../imgs/corner_bottom.svg") bottom right/15% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
@@ -179,12 +171,6 @@ h5{
 
 /*--- Extra Large Devices (xl) ---*/
 @media only screen and (min-width: 1200px) {
-    /*--- Banner ---*/
-    .bannerImg{
-        background-image: url("../imgs/Portada_frente_1440.png");
-    }
-    /*--- End of Banner ---*/
-
     /*--- Services ---*/
     .headerServices{
         height: 40px;
@@ -211,12 +197,6 @@ h5{
 
 /*--- Full HD Devices ---*/
 @media only screen and (min-width: 1920px) {
-    /*--- Banner ---*/
-    .bannerImg{
-        background-image: url("../imgs/Portada_frente_1920.png");
-    }
-    /*--- End of Banner ---*/
-
     /*--- Services ---*/
     #services{
         background: url("../imgs/corner_top.svg") top left/10% no-repeat, url("../imgs/corner_bottom.svg") bottom right/10% no-repeat, url("../imgs/back_texture.jpg") center center/cover no-repeat;
