@@ -454,7 +454,7 @@ li.cafe{
     }
     /*Titulo*/
     .containerTitulo{
-        width: 350px;
+        width: 100%;
         padding-bottom: 7px;
     }
     #log img{
@@ -645,7 +645,7 @@ li.cafe{
     }
     /*Titulo*/
     .containerTitulo{
-        width: 500px;
+        width: 100%;
         padding-bottom: 6.3px;
     }
     .padTitulo{             /* Clase nueva*/
@@ -778,7 +778,7 @@ li.cafe{
     }
     /*Titulo*/
     .containerTitulo{       /* Clase modificada*/
-        width: 650px;
+        width: 100%;
         padding-bottom: 10px;
     }
     .padTitulo{             /* Clase nueva*/
