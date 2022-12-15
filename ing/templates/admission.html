@@ -15,6 +15,7 @@
     <!--- Custom CSS for this page --->
     <link rel="stylesheet" href="../../styles/admision.css">
     <link rel="stylesheet" href="../styles/reglamento.css">
+    <link rel="stylesheet" href="../styles/politicas.css">
 
     <!--- Favicon --->
     <link rel="shortcut icon" type="image/png" href="../imgs/logo.png"/>
@@ -165,23 +166,33 @@
                                     </div>
                                 </div>
                             </div>
+                            <div>
+                                <a href="../../templates/admision.html" id="bandera">
+                                    <img class="posicion" src="../icons/Bandera_mex.svg">
+                                </a>
+                           </div>
                         </div>
                         <!---Fin Imagen --->
                         <!--- Boton --->
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 centrarBandera">
-                                 <a href="../../templates/admision.html" id="bandera">
-                                     <img src="../icons/Bandera_mex.svg">
-                                 </a>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                <a href="#" id="Btn_Reglamento">
-                                    <div id="cuadro">
-                                         <p class="textButton reglamento">Rules</p>
+                        	<div class="col-md-1 col-lg-2 col-xl-2"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-6 anchoBotonderecha">
+                                <a href="#" id="Btn_Politicas">
+                                    <div class="cuadroPoliticas flex">
+                                         <p class="textButton centrar" >Policies</p>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3"></div>
+                            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-6 anchoBotonizquierda">
+                                <!--- Poner el id en <a> --->
+                                <a href="#" id="Btn_Reglamento"> 
+                                    <div class="cuadroReglamento flex">
+                                        <p class="textButton centrar">Rules
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-1 col-lg-2 col-xl-2"></div>
                         </div> 
                         <!---Fin Boton --->
                     </div>
@@ -405,6 +416,56 @@
                     <span class="centrarBotonCierre"><img src="../icons/x_amarilla.svg"></span>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div id="Modal_Politicas" class="modal cerrar_politicas">
+        <div class="modal-content">
+            <div class="modal-body fondoInferiorCafe margenExternoVerde">
+                <div class="fondoMedioVerde margenModalVerde">
+                    <div class="col-12 col-lg-12 col-xl-12 margenesInternosVerde" id="fondo">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-xl-12 centrarTituloVerde">
+                                <h3>Cancellation and reservation policies.</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="GothamMedium">You must bring your reservation confirmation printed.<br>
+                                    <div class="col-12 separacion">
+                                        <div class="row divideVerde"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="GothamMedium">In case you cannot attend on the reserved date, you must give notice 15 days in advance nd there is a 25% charge of the total amount.<br>
+                                    <div class="col-12 separacion">
+                                        <div class="row divideVerde"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="GothamMedium">In case of no show, there are no refunds or changes. We promote a family environment.<br>
+                                    <div class="col-12 separacion">
+                                        <div class="row divideVerde"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="GothamMedium">In case of violation of this, the company may demand de eviction of the facilities witgout any refunt.<br>
+                                    <div class="col-12 separacion">
+                                        <div class="row divideVerde"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="GothamMedium">In case of refusal to comply this, we will inform the competent authorities.<br>
+                                </div>
+                                <br>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12">
+                    <div class="centrarBotonCierreVerde"><img src="../icons/x_verde.svg"></div>
+                </div>
         </div>
     </div>
 

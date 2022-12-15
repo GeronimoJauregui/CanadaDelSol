@@ -217,6 +217,40 @@ li.cafe{
     padding-left: 10px;
     padding-top: 24px;
 }
+.posicion{
+    position: absolute;
+    top: 63%;
+    left: 87%;
+    z-index: 100;
+    max-width: 22.46px;
+}
+.anchoBotonderecha{
+    padding-right: 11.87px;
+}
+.cuadroPoliticas {
+    margin-top: 12.9px;
+    height: 33.21px;
+    background-color: #C87337;
+    line-height: 11px !important;
+}
+.flex{
+    display: flex;
+}
+.centrar {
+    margin: auto;
+}
+.anchoBotonizquierda{
+    padding-left: 11.87px;
+}
+.cuadroReglamento {
+    margin-top: 12.9px;
+    height: 33.21px;
+    background-color: #d2ad5d;
+    line-height: 11px !important;
+}
+#fondo{
+    background: url("../imgs/back_texture.jpg") center center repeat;
+}
 @media only screen and (min-width: 342px){
     .padVineta1{
         position: relative;
@@ -231,6 +265,12 @@ li.cafe{
     }
 }
 @media only screen and (min-width: 414px){
+    .posicion{
+        position: absolute;
+        top: 84%;
+        left: -6%;
+        max-width: 30px;
+    }
     .camping {
         padding-top: 5px;
     }
@@ -255,6 +295,25 @@ li.cafe{
     }
 }
 @media only screen and (min-width: 768px){
+    .cuadroReglamento {
+        margin-top: 33.7px;
+        height: 46.31px;
+    }
+    .anchoBotonizquierda{
+        padding-left: 17.75px;
+    }
+    .cuadroPoliticas {
+        margin-top: 33.7px;
+        height: 46.31px;
+    }
+    .anchoBotonderecha{
+        padding-right: 17.75px;
+    }
+    .posicion{
+        position: absolute;
+        top: 83%;
+        left: -12%;
+    }
     .containerMargin{
         padding-top: 72px;
         padding-bottom: 135px;
@@ -401,6 +460,23 @@ li.cafe{
     }
 }
 @media only screen and (min-width: 992px){
+    .cuadroReglamento {
+        margin-top: 23.7px;
+        height: 34.68px;
+    }
+    .anchoBotonizquierda{
+        padding-left: 27.45px;
+    }
+    .cuadroPoliticas {
+        margin-top: 23.7px;
+        height: 34.68px;
+    }
+    .anchoBotonderecha{
+        padding-right: 27.45px;
+    }
+    .posicion{
+        display: none;
+    }
     .containerMargin{
         padding-top: 90px;
         padding-bottom: 189px;
@@ -517,6 +593,20 @@ li.cafe{
 
 }
 @media only screen and (min-width: 1200px){
+    .cuadroReglamento {
+        margin-top: 30.1px;
+        height: 46.7px;
+    }
+    .anchoBotonizquierda{
+        padding-left: 37px;
+    }
+    .cuadroPoliticas {
+        margin-top: 30.1px;
+        height: 46.7px;
+    }
+    .anchoBotonderecha{
+        padding-right: 37px;
+    }
     .containerMargin{
         padding-top: 124px;
         padding-bottom: 125px;
@@ -691,6 +781,20 @@ li.cafe{
     }
 }
 @media only screen and (min-width: 1920px){
+    .cuadroReglamento {
+        margin-top: 38.6px;
+        height: 60px;
+    }
+    .anchoBotonizquierda{
+        padding-left: 47.5px;
+    }
+    .cuadroPoliticas {
+        margin-top: 38.6px;
+        height: 60px;
+    }
+    .anchoBotonderecha{
+        padding-right: 47.5px;
+    }
     .containerMargin{
         padding-top: 120px;
         padding-bottom: 123px;
