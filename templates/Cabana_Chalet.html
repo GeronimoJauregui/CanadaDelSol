@@ -29,7 +29,6 @@
             <div><h4><a href="admision.html">Admisión</a></h4></div>
             <div><h4><a href="camping.html">Camping</a></h4></div>
             <div><h4 class="active"><a href="cabanas.html">Cabañas</a></h4></div>
-            <div><h4><a href="lagranja.html">La Granja</a></h4></div>
             <div><h4><a href="info.html">Tarifas</a></h4></div>
             <div><h4><a href="galeria.html">Galería</a></h4></div>
             <div><h4><a href="mapa.html">Mapa</a></h4></div>
@@ -54,9 +53,6 @@
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="cabanas.html">Cabañas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="lagranja.html">La Granja</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="info.html">Tarifas</a>
@@ -117,8 +113,14 @@
                         <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-12">
                                 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-                                    class="swiper mySwiper2">
+                                    class="swiper mySwiper2_9">
                                     <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <script type="text/javascript" async data-short="nSmSlBbMn" data-path="tours" 
+                                                width="100%" height="100%" 
+                                                src="https://app.cloudpano.com/public/shareScript.js">
+                                            </script>
+                                        </div>
                                         <div class="swiper-slide">
                                             <img src="../imgs/CabanaChalet1.jpg" class="d-block w-100" alt="...">
                                         </div>
@@ -143,13 +145,13 @@
                                         <div class="swiper-slide">
                                             <img src="../imgs/CabanaChalet8.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <!-- <div class="swiper-slide">
-                                            <img src="../imgs/CabanaChalet9.jpg" class="d-block w-100" alt="...">
-                                        </div> -->
                                     </div>
                                 </div>
-                                <div thumbsSlider="" class="swiper mySwiper">
+                                <div thumbsSlider="" class="swiper mySwiper_9">
                                     <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="../icons/360.svg" class="d-block w-100" alt="...">
+                                        </div>
                                         <div class="swiper-slide">
                                             <img src="../imgs/CabanaChalet1.jpg" class="d-block w-100" alt="...">
                                         </div>
@@ -174,9 +176,6 @@
                                         <div class="swiper-slide">
                                             <img src="../imgs/CabanaChalet8.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <!-- <div class="swiper-slide">
-                                            <img src="../imgs/CabanaChalet9.jpg" class="d-block w-100" alt="...">
-                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -541,14 +540,14 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 8,
-            slidesPerView: 8,
+        var swiper = new Swiper(".mySwiper_9", {
+            spaceBetween: 9,
+            slidesPerView: 9,
             freeMode: true,
             watchSlidesProgress: true,
         });
-        var swiper2 = new Swiper(".mySwiper2", {
-            spaceBetween: 8,
+        var swiper2 = new Swiper(".mySwiper2_9", {
+            spaceBetween: 9,
             thumbs: {
                 swiper: swiper,
             },

@@ -35,6 +35,7 @@
     background-position: center;
 }
 
+/* Para carrusel con 8 fotos o menos*/
 .mySwiper2 {
     height: 80%;
     width: 100%;
@@ -54,6 +55,18 @@
 
 .mySwiper .swiper-slide-thumb-active {
     opacity: 1;
+}
+
+/* Para carrusel con 9 fotos */
+.mySwiper_9 {
+    height: 15%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper2_9 {
+    height: 85%;
+    width: 100%;
 }
 
 .swiper-slide img {
