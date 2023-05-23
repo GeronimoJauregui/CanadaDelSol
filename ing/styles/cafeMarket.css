@@ -1,0 +1,947 @@
+
+.containerMargin{
+    padding-top: 54.9px;
+}
+#fondoCamping{
+    background: url("../imgs/back_texture.jpg") center center repeat;
+}
+
+li.blanca{
+    list-style-image: url(../icons/vineta_blanca.svg);
+}
+li.cafe{
+    list-style-image: url(../icons/vineta_cafe.svg);
+}
+/* Style for "CAMPING" */
+.camping {
+    padding-left: 0px;
+    padding-top: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.padCamping{
+    padding-left: 0px;
+}
+.containerTitulo{
+    width: 220px;
+    margin: auto;
+    padding-bottom: 7.5px;
+}
+#log img{
+    padding-top: 4px;
+    padding-right: 6.3px;
+    float: left;
+    vertical-align: middle;
+}
+.containerTitulo h1{
+    line-height: 34px;
+}
+.carousel-indicators li{
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: #C76F35;
+}
+
+/* Style for "Cuadro" */
+#cuadro {
+    margin-top: 13px;
+    height: 33px;
+    background-color: #d2ad5d;
+}
+
+/* Style for "Reglamento" */
+.reglamento {
+    text-align: center;
+    padding-top: 10px;
+}
+.centrarBandera{
+    padding-left: 40px;
+}
+#bandera img{
+    margin-top: 18.5px;
+    max-width: 22.46px;
+}
+/* Style for "Cuadro" */
+#layerPrecio {
+    margin-top: 22px;
+    height: 48px;
+    background-color: #402414;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+/* Style for "$200" */
+.stylePrice {
+    color: #ffffff;
+    font-family: Gotham;
+}
+/* Style for "$200" */
+.cant {
+    padding-top: 4px;
+    text-align: right;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+}
+/* Style for "pesos" */
+.pesos {
+    padding-top: 9px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+/* Style for "por noche" */
+.porNoche {
+    padding-left: 0px;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+/* Style for "Cuadro_Ama" */
+#cuadroAmarillo {
+  height: 90px;
+  background-color: #d2ad5d;
+}
+/* Style for "Costo por" */
+.costoPorPersona {
+    padding-top: 8.5px;
+    width: 241px;
+    height: 73px;
+    color: #402414;
+    font-family: Gotham;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-left: 0px;
+}
+/* Style for "Cuadro_Nar" */
+#cuadroNaranja {
+    position: relative;
+    top: 16px;
+    height: 40px;
+    padding-right: 15px;
+    background-color: #c87337;
+}
+
+/* Style for "Check-in 8" */
+.acceso {
+    padding-top: 9px;
+    width: 234px;
+    height: 13px;
+    color: #ffffff;
+    font-family: Gotham;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    padding-left: 0px;
+}
+
+/* Style for "Path 89" */
+.tamIcons img{
+    max-width: 25px
+}
+.topIcons{
+    padding-top: 40px;
+}
+.padIcons1 img{
+    display: block;
+    margin-left: auto;
+    padding-bottom: 17px;
+}
+.padIcons2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 17px;
+}
+.padIcons3 img{
+    display: block;
+    margin-right: auto;
+    padding-bottom: 17px;
+}
+.padIcons4 img{
+    display: block;
+    margin-left: auto;
+    padding-bottom: 17px;
+}
+.padIcons5 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 17px;
+}
+.padIcons6 img{
+    display: block;
+    margin-right: auto;
+    padding-bottom: 17px;
+}
+/*Funcion de los botones*/
+.cuadroCafe{
+    text-align: center;
+    color: #DCB860;
+    font-family: Gotham;
+    background-color: #402414;
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;
+    top: 0px;
+    height: 69px;
+    display: none;
+}
+.cuadroCafeAsador{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.cuadroCafeComedor{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.cuadroCafeAlberca{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+.cuadroCafeBasquetbol{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 24px;
+}
+.cuadroCafeGranja{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 24px;
+}
+.cuadroCafeJuegos{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 24px;
+}
+.posicion{
+    position: absolute;
+    top: 63%;
+    left: 87%;
+    z-index: 100;
+    max-width: 22.46px;
+}
+.anchoBotonderecha{
+    padding-right: 11.87px;
+}
+.cuadroPoliticas {
+    margin-top: 12.9px;
+    height: 33.21px;
+    background-color: #C87337;
+    line-height: 11px !important;
+}
+.flex{
+    display: flex;
+}
+.centrar {
+    margin: auto;
+}
+.anchoBotonizquierda{
+    padding-left: 11.87px;
+}
+.cuadroReglamento {
+    margin-top: 12.9px;
+    height: 33.21px;
+    background-color: #d2ad5d;
+    line-height: 11px !important;
+}
+#fondo{
+    background: url("../imgs/back_texture.jpg") center center repeat;
+}
+@media only screen and (min-width: 342px){
+    .padVineta1{
+        position: relative;
+        top: 7px;
+    }
+    .padVineta2{
+        position: relative;
+        top: -3px;
+    }
+    .acceso {
+        padding-top: 15px;
+    }
+}
+@media only screen and (min-width: 414px){
+    .posicion{
+        position: absolute;
+        top: 84%;
+        left: -6%;
+        max-width: 30px;
+    }
+    .camping {
+        padding-top: 5px;
+    }
+    .centrarBandera{
+        padding-left: 15px;
+    }
+    #bandera img{
+        margin-top: 15px;
+        max-width: 30px;
+    }
+    .costoPorPersona {
+        font-size: 11px;
+    }
+    .acceso {
+        padding-right: 0px;
+        padding-top: 15px;
+        font-size: 11px;
+    }
+    .vineta img{
+        height: 17px;
+        width: 17px;
+    }
+}
+@media only screen and (min-width: 576px){
+    .containerTitulo{
+        width: 260px;
+    }
+}
+@media only screen and (min-width: 600px){
+    #cuadroAmarillo {
+        height: 70px;
+    }  
+}
+@media only screen and (min-width: 768px){
+    .cuadroReglamento {
+        margin-top: 33.7px;
+        height: 46.31px;
+    }
+    .anchoBotonizquierda{
+        padding-left: 17.75px;
+    }
+    .cuadroPoliticas {
+        margin-top: 33.7px;
+        height: 46.31px;
+    }
+    .anchoBotonderecha{
+        padding-right: 17.75px;
+    }
+    .posicion{
+        position: absolute;
+        top: 83%;
+        left: -12%;
+    }
+    .containerMargin{
+        padding-top: 72px;
+        padding-bottom: 135px;
+    }
+    .containerTitulo{
+        width: 350px;
+        margin-left: 15px ;
+        padding-bottom: 7.5px;
+    }
+    #log img{
+        padding-top: 0px;
+        padding-right: 7px;
+        width: 48px;
+    }
+    .containerTitulo h1{
+        line-height: 42px;
+    }
+    #cuadro {
+        margin-top: 33px;
+        height: 46px;
+    }
+    #layerPrecio {
+        margin-top: 33px;
+    }
+    .cant {
+        font-size: 43px;
+        line-height: 52px;
+    }
+    /* Style for "pesos" */
+    .pesos {
+        padding-top: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+    /* Style for "por noche" */
+    .porNoche {
+        padding-left: 0px;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 10px;
+    }
+    #cuadroNaranja {
+        height: 55px;
+    }
+    .costoPorPersona {
+        font-size: 12px;
+    }
+    .acceso {
+        padding-right: 0px;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .reglamento {
+        padding-top: 14px;
+    }
+    #bandera img{
+        margin-top: 45px;
+    }
+    .camping {
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    
+    .carousel-indicators li{
+        width: 6px;
+        height: 6px;
+    }
+    .padIcons1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons3 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons4 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons5 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons6 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    /*Funcion de los botones*/
+    .cuadroCafe{
+        font-size: 12px;
+        line-height: 17px;
+        position: absolute;
+        top: 0px;
+        height: 81px;
+        display: none;
+    }
+    .cuadroCafeAsador{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+    .cuadroCafeComedor{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+    .cuadroCafeAlberca{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 17px;
+    }
+    .cuadroCafeBasquetbol{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+    .cuadroCafeGranja{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+    .cuadroCafeJuegos{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .cuadroReglamento {
+        margin-top: 23.7px;
+        height: 34.68px;
+    }
+    .anchoBotonizquierda{
+        padding-left: 27.45px;
+    }
+    .cuadroPoliticas {
+        margin-top: 23.7px;
+        height: 34.68px;
+    }
+    .anchoBotonderecha{
+        padding-right: 27.45px;
+    }
+    .posicion{
+        display: none;
+    }
+    .containerMargin{
+        padding-top: 90px;
+        padding-bottom: 189px;
+    }
+    
+    .carousel-indicators li{
+        width: 7px;
+        height: 7px;
+    }
+    #bandera img{
+        display: none;
+    }
+    #cuadro {
+        margin-top: 24px;
+        height: 39px;
+    }
+    .reglamento {
+        padding-top: 13px;
+    }
+    #layerPrecio {
+        margin-top: 50px;
+    }
+    #cuadroAmarillo {
+      height: 95px;
+    }
+    .costoPorPersona {
+        font-size: 13px;
+    }
+    .acceso {
+        padding-top: 15px;
+        line-height: 16px;
+        padding-right: 0px;
+        font-size: 13px;
+    }
+    .padIcons1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        padding-bottom: 15px;
+    }
+    .padIcons2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        padding-bottom: 15px;
+    }
+    .padIcons3 img{
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons4 img{
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons5 img{
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        padding-bottom: 15px;
+    }
+    .padIcons6 img{
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .pad0LeftandRight{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .cuadroCafe{
+        font-size: 13px;
+        line-height: 17px;
+        position: absolute;
+        top: 0px;
+        height: 81px;
+        display: none;
+    }
+    .cuadroCafeAsador{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 23px;
+    }
+    .cuadroCafeComedor{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+    .cuadroCafeAlberca{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 17px;
+    }
+    .cuadroCafeBasquetbol{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+    .cuadroCafeGranja{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+    .cuadroCafeJuegos{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 28px;
+    }
+
+}
+@media only screen and (min-width: 1200px){
+    .cuadroReglamento {
+        margin-top: 30.1px;
+        height: 46.7px;
+    }
+    .anchoBotonizquierda{
+        padding-left: 37px;
+    }
+    .cuadroPoliticas {
+        margin-top: 30.1px;
+        height: 46.7px;
+    }
+    .anchoBotonderecha{
+        padding-right: 37px;
+    }
+    .containerMargin{
+        padding-top: 124px;
+        padding-bottom: 125px;
+    }
+    .containerTitulo{
+        width: 500px;
+        padding-bottom: 6.3px;
+    }
+    #log img{
+        padding-top: 0px;
+        padding-right: 13px;
+        width: 68px;
+    }
+    .containerTitulo h1{
+        line-height: 55px;
+    }
+    .camping {
+        padding-left: 23px;
+        padding-top: 9px;
+    }
+    #cuadro {
+        margin-top: 30px;
+        height: 47px;
+    }
+    .reglamento {
+        padding-top: 15px;
+    }
+    #layerPrecio {
+        margin-top: 60px;
+    }
+    .cant {
+        padding-top: 15px;
+        font-size: 53px;
+        line-height: 52px;
+    }
+    /* Style for "pesos" */
+    .pesos {
+        padding-top: 26px;
+        font-size: 23.5px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+    /* Style for "por noche" */
+    .porNoche {
+        padding-left: 0px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 10px;
+    }
+    #cuadroAmarillo {
+      height: 115px;
+    }
+    #cuadroNaranja {
+        height: 80px;
+    }
+    .padIcons1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons3 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons4 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons5 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .padIcons6 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    .topIcons{
+        padding-top: 50px;
+    }
+    .costoPorPersona {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .acceso {
+        padding-top: 30px;
+        line-height: 16px;
+        padding-right: 0px;
+        font-size: 16px;
+    }
+    .vineta img{
+        height: 20px;
+        width: 20px;
+    }
+    .padVineta1{
+        position: relative;
+        top: 23px;
+    }
+    .padVineta2{
+        position: relative;
+        top: 17px;
+    }
+    .padVinetaInd1{
+        position: relative;
+        top: 7px;
+    }
+    .padVinetaInd2{
+        position: relative;
+        top: 7px;
+    }
+    .padVinetaInd3{
+        position: relative;
+        top: 8px;
+    }
+    .padVinetaInd4{
+        position: relative;
+        top: 7px;
+    }
+
+    .cuadroCafe{
+        font-size: 14px;
+        line-height: 17px;
+        position: absolute;
+        top: 0px;
+        height: 110px;
+        display: none;
+    }
+    .cuadroCafeAsador{
+        padding-right: 110px;
+        padding-left: 110px;
+        padding-top: 36px;
+    }
+    .cuadroCafeComedor{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 36px;
+    }
+    .cuadroCafeAlberca{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 30px;
+    }
+    .cuadroCafeBasquetbol{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 46px;
+    }
+    .cuadroCafeGranja{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 46px;
+    }
+    .cuadroCafeJuegos{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 46px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .cuadroReglamento {
+        margin-top: 38.6px;
+        height: 60px;
+    }
+    .anchoBotonizquierda{
+        padding-left: 47.5px;
+    }
+    .cuadroPoliticas {
+        margin-top: 38.6px;
+        height: 60px;
+    }
+    .anchoBotonderecha{
+        padding-right: 47.5px;
+    }
+    .containerMargin{
+        padding-top: 120px;
+        padding-bottom: 123px;
+    }
+    .containerTitulo{
+        width: 600px;
+        padding-bottom: 8.7px;
+    }
+    #log img{
+        padding-top: 0px;
+        padding-right: 10px;
+        width: 83px;
+    }
+    .containerTitulo h1{
+        line-height: 72px;
+    }
+    .camping {
+        padding-left: 23px;
+        padding-top: 12px;
+    }
+    #cuadro {
+        margin-top: 38px;
+        height: 60px;
+    }
+    .reglamento {
+        padding-top: 18px;
+    }
+    #layerPrecio {
+        margin-top: 83px;
+    }
+    .cant {
+        padding-top: 26px;
+        font-size: 68px;
+    }
+    /* Style for "pesos" */
+    .pesos {
+        padding-top: 35px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+    /* Style for "por noche" */
+    .porNoche {
+        padding-top: 5px;
+        padding-left: 0px;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 10px;
+    }
+    .vineta img{
+        width: 20px;
+        height: 20px;
+    }
+    #cuadroAmarillo {
+      height: 130px;
+    }
+    #cuadroNaranja {
+        position: relative;
+        top: 27px;
+        height: 100px;
+    }
+    .costoPorPersona {
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .acceso {
+        padding-top: 40px;
+        line-height: 19px;
+        padding-right: 0px;
+        font-size: 18px;
+    }
+    .padVineta1{
+        position: relative;
+        top: 35px;
+    }
+    .padVineta2{
+        position: relative;
+        top: 30px;
+    }
+    .padVinetaInd1{
+        position: relative;
+        top: 20px;
+    }
+    .padVinetaInd2{
+        position: relative;
+        top: 25px;
+    }
+    .padVinetaInd3{
+        position: relative;
+        top: 33px;
+    }
+    .padVinetaInd4{
+        position: relative;
+        top: 37px;
+    }
+    .topIcons{
+        padding-top: 60px;
+    }
+    .cuadroCafe{
+        font-size: 18px;
+        line-height: 17px;
+        position: absolute;
+        top: 0px;
+        height: 141px;
+        display: none;
+    }
+    .cuadroCafeAsador{
+        padding-right: 110px;
+        padding-left: 110px;
+        padding-top: 50px;
+    }
+    .cuadroCafeComedor{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 50px;
+    }
+    .cuadroCafeAlberca{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 45px;
+    }
+    .cuadroCafeBasquetbol{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 60px;
+    }
+    .cuadroCafeGranja{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 60px;
+    }
+    .cuadroCafeJuegos{
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-top: 60px;
+    }
+}
+
