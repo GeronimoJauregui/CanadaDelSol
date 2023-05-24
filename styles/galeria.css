@@ -52,10 +52,12 @@ body{
 }
 
 .carousel-indicators li {
-    width: 6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     border-radius: 100%;
     background-color: #C76F35;
+    margin-right: -1px;
+    margin-left: 2px;
 }
 
 .bandera{
@@ -73,12 +75,20 @@ body{
     top: 60%;
 }
 
-/*.sidebarSocial {
-    top: 350px;
-}*/
+.image-height {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 190px;
+}
 
 /*--- Small Devices (sm) ---*/
 @media only screen and (min-width: 414px) {
+    .carousel-inner {
+        height: 240px;
+    }
     body{
         background: url("../imgs/back_texture.jpg") center center repeat ;
     }
@@ -120,14 +130,34 @@ body{
         height: 30px;
         width: 30px;
     }
-
+    .carousel-indicators li {
+        margin-right: -2px;
+        margin-left: 4px;
+    }
 }
 /*--- End of Small Devices (sm) ---*/
-
+@media only screen and (min-width: 500px) {
+    .carousel-inner {
+        height: 302px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .carousel-indicators li {
+        margin-right: 4px;
+        margin-left: 0px;
+        width: 8px;
+        height: 8px;
+    }
+    .carousel-inner {
+        height: 370px;
+    }
+}
 
 /*--- Medium Devices (md) ---*/
 @media only screen and (min-width: 768px) {
-
+    .carousel-inner {
+        height: 390px;
+    }
     .sidebarSocial{
         top: 65%;
     }
@@ -175,6 +205,9 @@ body{
 
 /*--- Large Devices (lg)  Bootstrap ---*/
 @media only screen and (min-width: 992px) {
+    .carousel-inner {
+        height: 450px;
+    }
     #container_carousel{
         height: calc(100vh - 40px);
     }
@@ -209,8 +242,8 @@ body{
 
     .carousel-indicators li {
         width: 8px;
-        height: 9px;
-        margin-right: 12px;
+        height: 8px;
+        margin-right: 10px;
         margin-left: -4px;
 
     }
@@ -259,22 +292,21 @@ body{
     }
 
     .carousel-indicators li {
-        width: 10px;
-        height: 11px;
-        margin-right: 19px;
+        width: 9px;
+        height: 9px;
+        margin-right: 9px;
         margin-left: -4px;
 
     }
 
-/*    .sidebarSocial {
-        top: 440px;
-    }*/
 }
 /*--- End of Extra Large Devices (xl) Bootstrap ---*/
 
 /*--- Extra Large Devices (xl) ---*/
 @media only screen and (min-width: 1440px) {
-
+    .carousel-inner {
+        height: 570px;
+    }
     .div_logo_galeria{
         padding-top: 58px;
         padding-left: calc((100vw*74)/100);
@@ -284,11 +316,22 @@ body{
         width: 188.66px;
         height: 246.19px;
     }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        margin-right: 14px;
+        margin-left: -4px;
+
+    }
 }
 /*--- End of Extra Large Devices (xl) ---*/
 
 /*--- Ful HD Devices (FHD) ---*/
 @media only screen and (min-width: 1920px){
+    .carousel-inner {
+        height: 720px;
+    }
     #container_carousel{
         height: calc(100vh - 80px);
     }
