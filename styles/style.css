@@ -137,6 +137,17 @@ header{
 .active{
     background-color: #D2AD5D;
 }
+#carouselPortada {
+    .carousel-inner {
+        text-align: center;
+    }
+    .img-fluid {
+        height: 250px;
+    }
+    .carousel-item {
+        background-color: black;
+    }
+}
 #promIcon{
     position: absolute;
     top: 40px;
@@ -462,6 +473,11 @@ header{
         height: 204px;
     }
     /*--- End of Contact Modal ---*/
+    #carouselPortada {
+        .img-fluid {
+            height: 350px;
+        }
+    }
 }
 
 @media only screen and (min-width: 514px){
@@ -492,6 +508,11 @@ header{
     /*--- End of Global ---*/
     .aling-vertical {
         padding-left: 0px;
+    }
+    #carouselPortada {
+        .img-fluid {
+            height: 400px;
+        }
     }
 }
 /*--- Medium Devices (md) ---*/
@@ -569,6 +590,11 @@ header{
     /*--- End of Contact Modal ---*/
     .modalClipboard p, .modalSent p{
         font-size: 10px !important;
+    }
+    #carouselPortada {
+        .img-fluid {
+            height: 450px;
+        }
     }
 }
 /*--- End of Medium Devices (md) ---*/
@@ -648,6 +674,11 @@ header{
     /*--- End of Contact Modal ---*/
     .aling-vertical {
         padding-left: 6px;
+    }
+    #carouselPortada {
+        .img-fluid {
+            height: 500px;
+        }
     }
 }
 /*--- End of Large Devices (lg) ---*/
@@ -772,6 +803,12 @@ header{
     .aling-vertical {
         padding-left: 2px;
     }
+
+    #carouselPortada {
+        .img-fluid {
+            height: 550px;
+        }
+    }
 }
 /*--- End of Extra Large Devices (xl) ---*/
 
@@ -799,6 +836,11 @@ header{
     }
     .nav-item a{
         padding: 1.5rem 2rem 2rem 2rem !important;
+    }
+    #carouselPortada {
+        .img-fluid {
+            height: 600px;
+        }
     }
 }
 
@@ -913,6 +955,11 @@ header{
     /*--- End of Contact Modal ---*/
     .modalClipboard p, .modalSent p{
         font-size: 16px !important;
+    }
+    #carouselPortada {
+        .img-fluid {
+            height: 650px;
+        }
     }
 }
 /*--- End of Full HD Devices ---*/
