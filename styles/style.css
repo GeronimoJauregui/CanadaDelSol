@@ -97,7 +97,7 @@ input:-webkit-autofill {
 
 .margenGranja{
     padding: 0px 15px;
-    height: 100vh;
+    min-height: 100vh;
 }
 .margenTitulos{
     text-align: center;
@@ -552,7 +552,6 @@ header{
     }
     .margenGranja{
         padding: 0 90px;
-        height: unset;
     }
     .margenMapa{
         padding: 0 40px;
