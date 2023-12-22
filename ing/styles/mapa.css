@@ -7,7 +7,9 @@ body{
     padding-top: 50px;
 }
 
-
+.margenMapa {
+    min-height: 100vh;
+}
 
 #container{
     height: calc(100vh - 40px);
