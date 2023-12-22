@@ -376,6 +376,19 @@ form textarea{
     hyphens: auto;
 }
 /*--- Animations ---*/
+.footer {
+    position: relative;
+    bottom: 0;
+    background-color: #C87337;
+    height: 2.5rem;
+    div {
+        height: 2.5rem;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media only screen and (min-width: 992px) {
     .bannerImg {
         -webkit-animation: zoom 2s;

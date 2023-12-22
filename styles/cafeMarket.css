@@ -1,6 +1,7 @@
 
 .containerMargin{
     padding-top: 54.9px;
+    padding-bottom: 40px;
 }
 #fondoCamping{
     background: url("../imgs/back_texture.jpg") center center repeat;
@@ -329,7 +330,7 @@ li.cafe{
     }
     .containerMargin{
         padding-top: 72px;
-        padding-bottom: 135px;
+        padding-bottom: 70px;
     }
     .containerTitulo{
         width: 350px;
@@ -494,7 +495,6 @@ li.cafe{
     }
     .containerMargin{
         padding-top: 90px;
-        padding-bottom: 189px;
     }
     
     .carousel-indicators li{
@@ -624,7 +624,6 @@ li.cafe{
     }
     .containerMargin{
         padding-top: 124px;
-        padding-bottom: 125px;
     }
     .containerTitulo{
         width: 500px;
@@ -811,7 +810,6 @@ li.cafe{
     }
     .containerMargin{
         padding-top: 120px;
-        padding-bottom: 123px;
     }
     .containerTitulo{
         width: 600px;
