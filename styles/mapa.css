@@ -3,6 +3,11 @@
 body{
     background: url("../imgs/back_texture.jpg") center center/cover repeat ;
 }
+
+.margenMapa {
+    min-height: 100vh;
+}
+
 .margenTop{
     padding-top: 50px;
 }

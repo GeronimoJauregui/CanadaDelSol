@@ -155,6 +155,9 @@ body{
 
 /*--- Medium Devices (md) ---*/
 @media only screen and (min-width: 768px) {
+    .footer {
+        margin-top: 2rem;
+    }
     .carousel-inner {
         height: 390px;
     }
@@ -256,7 +259,9 @@ body{
 
 /*--- Extra Large Devices (xl) Bootstrap ---*/
 @media only screen and (min-width: 1200px) {
-
+    .footer {
+        margin-top: 3.5rem;
+    }
     .sidebarSocial{
         top: 40%;
     }
