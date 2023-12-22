@@ -382,13 +382,6 @@ form textarea{
     bottom: 0;
     background-color: #C87337;
     height: 2.5rem;
-    div {
-        height: 2.5rem;
-        font-size: 8px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 .text-footer {
     height: 2.5rem;
