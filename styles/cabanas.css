@@ -121,6 +121,12 @@
  .img18{
     background: url("../imgs/Portada_Pool.jpg") center center/cover no-repeat;
  }
+ .img19{
+    background: url("../imgs/ChaletDeluxe1.jpg") center center/cover no-repeat;
+ }
+ .img20{
+    background: url("../imgs/CV8 1.jpg") center center/cover no-repeat;
+ }
  @media only screen and (min-width: 414px){
      #logCabana img{
          max-width: 38px;
