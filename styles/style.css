@@ -77,6 +77,14 @@ a{
     text-decoration: none !important;
 }
 
+.swiper-button-next, .swiper-button-prev {
+    color: #c87337 !important;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #d15d0b  !important;
+}
+
 @-webkit-keyframes autofill {
     to {
         background: transparent;
