@@ -1,505 +1,777 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Cañada del Sol</title>
 
     <!--- Bootstrap CSS --->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
     <!--- Global Custom CSS --->
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css" />
 
     <!--- Custom CSS for this page --->
-    <link rel="stylesheet" href="../styles/camping.css">
-    <link rel="stylesheet" href="../styles/reglamento.css">
+    <link rel="stylesheet" href="../styles/camping.css" />
+    <link rel="stylesheet" href="../styles/reglamento.css" />
 
     <!--- Favicon --->
-    <link rel="shortcut icon" type="image/png" href="../imgs/logo.png"/>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="../styles/slide.css">
-</head>
-<body>
+    <link rel="shortcut icon" type="image/png" href="../imgs/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../styles/slide.css" />
+  </head>
+  <body>
     <header>
-        <!--- Menu Mobile --->
-        <div class="collapse d-lg-none" id="menuList">
-            <div><h4><a href="../index.html">Inicio</a></h4></div>
-            <div><h4><a href="admision.html">Admisión</a></h4></div>
-            <div><h4><a href="cafeMarket.html">Café Market</a></h4></div>
-            <div><h4 class="active"><a href="camping.html">Camping</a></h4></div>
-            <div><h4><a href="cabanas.html">Cabañas</a></h4></div>
-            <div><h4><a href="info.html">Tarifas</a></h4></div>
-            <div><h4><a href="galeria.html">Galería</a></h4></div>
-            <div><h4><a href="mapa.html">Mapa</a></h4></div>
-            <div><h4><a href="../index.html#Contact">Contacto</a></h4></div>
+      <!--- Menu Mobile --->
+      <div class="collapse d-lg-none" id="menuList">
+        <div>
+          <h4><a href="../index.html">Inicio</a></h4>
+        </div>
+        <div>
+          <h4><a href="admision.html">Admisión</a></h4>
+        </div>
+        <div>
+          <h4><a href="cafeMarket.html">Café Market</a></h4>
+        </div>
+        <div>
+          <h4 class="active"><a href="camping.html">Camping</a></h4>
+        </div>
+        <div>
+          <h4><a href="cabanas.html">Cabañas</a></h4>
+        </div>
+        <div>
+          <h4><a href="info.html">Tarifas</a></h4>
+        </div>
+        <div>
+          <h4><a href="galeria.html">Galería</a></h4>
+        </div>
+        <div>
+          <h4><a href="mapa.html">Mapa</a></h4>
+        </div>
+        <div>
+          <h4><a href="../index.html#Contact">Contacto</a></h4>
+        </div>
+      </div>
+
+      <!--- Navbar Large Devices --->
+      <nav class="navbar navbar-expand-lg" id="mainNav">
+        <a class="navbar-brand" href="#" id="logoNav">
+          <img src="../icons/logo.svg" alt="logoCañadaDelSol" />
+        </a>
+        <div class="collapse navbar-collapse d-none d-lg-block" id="navMenus">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"
+                >Inicio<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="admision.html">Admisión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cafeMarket.html">Café Market</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="camping.html">Camping</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cabanas.html">Cabañas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">Tarifas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mapa.html">Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#Contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="collapse navbar-collapse d-none d-lg-block"
+          id="navLanguages"
+        >
+          <a class="nav-link" href="../ing/templates/camping.html"
+            ><img src="../icons/bandera_usa.svg"
+          /></a>
         </div>
 
-        <!--- Navbar Large Devices --->
-        <nav class="navbar navbar-expand-lg" id="mainNav">
-            <a class="navbar-brand" href="#" id="logoNav">
-                <img src="../icons/logo.svg" alt="logoCañadaDelSol">
-            </a>
-            <div class="collapse navbar-collapse d-none d-lg-block" id="navMenus">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="admision.html">Admisión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cafeMarket.html">Café Market</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="camping.html">Camping</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cabanas.html">Cabañas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="info.html">Tarifas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mapa.html">Mapa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html#Contact">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="collapse navbar-collapse d-none d-lg-block" id="navLanguages">
-                <a class="nav-link" href="../ing/templates/camping.html"><img src="../icons/bandera_usa.svg"></a>
-            </div>
-            
-            <!--- Toogler Mobile Menu --->
-            <div class="blankFlex d-lg-none"></div>
-            <button class="navbar-toggler d-lg-none" id="hamburguerMenu" type="button" data-toggle="collapse" data-target="#menuList" aria-controls="menuList" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!--- Toogler Mobile Menu --->
+        <div class="blankFlex d-lg-none"></div>
+        <button
+          class="navbar-toggler d-lg-none"
+          id="hamburguerMenu"
+          type="button"
+          data-toggle="collapse"
+          data-target="#menuList"
+          aria-controls="menuList"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!--- Icon Gift Fixed --->
-            <a  href="./promociones.html" id="promIcon"><img src="../icons/regalo.svg"></a>
-        </nav>
+        <!--- Icon Gift Fixed --->
+        <a href="./promociones.html" id="promIcon"
+          ><img src="../icons/regalo.svg"
+        /></a>
+      </nav>
     </header>
 
     <div id="floatingItems">
-        <!--- Floating Language --->
-        <!--- Floating Social Sidebar --->
-        <div class="sidebarSocial">
-            <div class="sidebarItem"><a href="https://www.facebook.com/CanadadelSol/?ref=br_rs" target="_blank"><img src="../icons/fb.svg"></a></div>
-            <div class="sidebarItem"><a href="https://www.instagram.com/explore/locations/248431923/canada-del-sol/" target="_blank"><img src="../icons/ig.svg"></a></div>
-            <div id="shareButton" class="sidebarItem"><img src="../icons/share.svg"></div>
-            <div class="sidebarItem"><a href="tel:+5216647773102"><img src="../icons/call.svg"></a></div>
-            <div class="sidebarItem colorWhatssap"><a href="https://api.whatsapp.com/send?text=Hola%20me%20gustaría%20recibir%20informes%20sobre%20el%20camping.%20&amp;phone=+5216647773102#" target="_blank"><img src="../icons/Logo_Whatsapp2.svg"></a></div>
+      <!--- Floating Language --->
+      <!--- Floating Social Sidebar --->
+      <div class="sidebarSocial">
+        <div class="sidebarItem">
+          <a
+            href="https://www.facebook.com/CanadadelSol/?ref=br_rs"
+            target="_blank"
+            ><img src="../icons/fb.svg"
+          /></a>
         </div>
+        <div class="sidebarItem">
+          <a
+            href="https://www.instagram.com/explore/locations/248431923/canada-del-sol/"
+            target="_blank"
+            ><img src="../icons/ig.svg"
+          /></a>
+        </div>
+        <div id="shareButton" class="sidebarItem">
+          <img src="../icons/share.svg" />
+        </div>
+        <div class="sidebarItem">
+          <a href="tel:+5216647773102"><img src="../icons/call.svg" /></a>
+        </div>
+        <div class="sidebarItem colorWhatssap">
+          <a
+            href="https://api.whatsapp.com/send?text=Hola%20me%20gustaría%20recibir%20informes%20sobre%20el%20camping.%20&amp;phone=+5216647773102#"
+            target="_blank"
+            ><img src="../icons/Logo_Whatsapp2.svg"
+          /></a>
+        </div>
+      </div>
     </div>
 
     <div class="container-fluid margen containerMargin" id="fondoCamping">
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
-                <div class="row">
-                    <!--- Imagen con boton --->
-                    <div class="col-xl-7 col-lg-7 col-md-12 col-12">
-                        <div class="row">
-                            <!--- Titulo --->
-                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-5 col-5 logCamping" id="logCamping">
-                                <img  src="../icons/Bt_camping.svg" alt="logocamping"/>
-                            </div>
-                            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-6 col-6 padCamping">
-                                <h1 class='camping'>CAMPING</h1>
-                            </div>
-                            <!--- Fin Titulo --->
-                        </div>
-                        <!--- Imagen --->
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
-                                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-                                    class="swiper mySwiper2_9">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping11.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping2.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping3.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping4.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping5.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping6.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping7.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping8.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_1.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_2.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_3.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_4.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_5.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_6.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Alberca4.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div thumbsSlider="" class="swiper mySwiper_9">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping11.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping2.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping3.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping4.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping5.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping6.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping7.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Ft_camping8.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_1.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_2.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_3.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_4.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_5.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/banio_6.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="../imgs/Alberca4.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!---Fin Imagen --->
-                        <!--- Boton --->
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 centrarBandera">
-                                 <a href="../ing/templates/camping.html" id="bandera">
-                                     <img src="../icons/bandera_usa.svg">
-                                 </a>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                <a href="#" id="Btn_Reglamento">
-                                    <div id="cuadro">
-                                         <p class="textButton reglamento">Reglamento</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3"></div>
-                        </div> 
-                        <!---Fin Boton --->
-                    </div>
-                    <!--- Fin imgen con boton --->
-
-                    <!--- Cuadro Naranja y Amarillo. Iconos --->
-                    <div class="col-xl-5 col-lg-5 col-md-12 col-12">
-                        <div class="row">
-                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="padding-right: 0px; padding-left: 0px;" >
-                                    <div id="layerPrecio">
-                                        <div class="row stylePrice">
-                                            <div class="col-7 col-sm-7 col-md-7 col-lg-7 cant">
-                                                <span>$350</span>
-                                            </div>
-                                            <div class="col-5 col-sm-5 col-md-5 col-lg-5">
-                                                <div class="row pesos">
-                                                    <span>pesos</span>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-12 col-sm-12 porNoche">
-                                                        <p>por noche</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="cuadroAmarillo">
-                                        <div class="row">
-                                            <div class="col-12 costoPorPersona" >
-                                                <ul style="padding-right: 15px;">
-                                                    <li class="cafe">Costo por persona.</li>
-                                                    <li class="cafe">2 días y 1 noche.</li>
-                                                    <li class="cafe">Tarifa 2024.</li>
-                                                    <li class="cafe">Menores de 7 años no pagan.</li>
-                                                </ul> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class=" col-12" style="padding-right: 0px; padding-left: 0px;" >
-                                    <div id="cuadroNaranja">
-                                        <div class="row">
-                                            <div class="col-12 acceso">
-                                                <ul >
-                                                <li class="blanca">Entrada 8:00 a.m. / Salida 7:00 p.m. del siguiente día</li>
-                                                
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 topIcons tamIcons">
-                                <div class="col-12 backgroundCafe padding-icon">
-                                    <div class="row">
-                                        <div class="col-4 col-md-4 col-lg-4 padding-icon">
-                                            <div class="row">
-                                                <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_asador.svg"></div>
-                                                <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
-                                                    <p class="text-icon-title">Asador
-                                                    <p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-4 col-lg-4 padding-icon">
-                                            <div class="row">
-                                                <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_Basket.svg"></div>
-                                                <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
-                                                    <p class="text-icon-title">Canchas deportivas
-                                                    <p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-4 col-lg-4 padding-icon">
-                                            <div class="row">
-                                                <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_la_granja.svg"></div>
-                                                <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
-                                                    <p class="text-icon-title">Acceso granja
-                                                    <p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-4 col-lg-4 padding-icon">
-                                            <div class="row">
-                                                <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_juegos_Infantiles.svg">
-                                                </div>
-                                                <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
-                                                    <p class="text-icon-title">Juegos infantiles
-                                                    <p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-4 col-lg-4 padding-icon">
-                                            <div class="row">
-                                                <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_comedor.svg"></div>
-                                                <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
-                                                    <p class="text-icon-title">Bancas
-                                                    <p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 col-md-4 col-lg-4 padding-icon">
-                                            <div class="row">
-                                                <div class="col-4 col-sm-3 col-lg-4"><img src="../icons/Bt_alberca.svg"></div>
-                                                <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
-                                                    <p class="text-icon-title">
-                                                        Acceso a Albercas
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--- Fin Cuadro Naranja y Amarillo. Iconos --->
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+          <div class="row">
+            <!--- Imagen con boton --->
+            <div class="col-xl-7 col-lg-7 col-md-12 col-12">
+              <div class="row">
+                <!--- Titulo --->
+                <div
+                  class="col-xl-1 col-lg-1 col-md-1 col-sm-5 col-5 logCamping"
+                  id="logCamping"
+                >
+                  <img src="../icons/Bt_camping.svg" alt="logocamping" />
                 </div>
+                <div
+                  class="col-xl-11 col-lg-11 col-md-11 col-sm-6 col-6 padCamping"
+                >
+                  <h1 class="camping">CAMPING</h1>
+                </div>
+                <!--- Fin Titulo --->
+              </div>
+              <!--- Imagen --->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                  <div
+                    style="
+                      --swiper-navigation-color: #fff;
+                      --swiper-pagination-color: #fff;
+                    "
+                    class="swiper mySwiper2_9"
+                  >
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping11.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping2.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping3.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping4.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping5.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping6.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping7.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping8.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_1.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_2.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_3.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_4.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_5.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_6.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Alberca4.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div thumbsSlider="" class="swiper mySwiper_9">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping11.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping2.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping3.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping4.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping5.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping6.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping7.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Ft_camping8.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_1.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_2.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_3.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_4.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_5.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/banio_6.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="../imgs/Alberca4.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!---Fin Imagen --->
+              <!--- Boton --->
+              <div class="row">
+                <div
+                  class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 centrarBandera"
+                >
+                  <a href="../ing/templates/camping.html" id="bandera">
+                    <img src="../icons/bandera_usa.svg" />
+                  </a>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                  <a href="#" id="Btn_Reglamento">
+                    <div id="cuadro">
+                      <p class="textButton reglamento">Reglamento</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3"></div>
+              </div>
+              <!---Fin Boton --->
             </div>
-        </div>
+            <!--- Fin imgen con boton --->
 
+            <!--- Cuadro Naranja y Amarillo. Iconos --->
+            <div class="col-xl-5 col-lg-5 col-md-12 col-12">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div
+                    class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"
+                    style="padding-right: 0px; padding-left: 0px"
+                  >
+                    <div id="layerPrecio">
+                      <div class="row stylePrice">
+                        <div class="col-7 col-sm-7 col-md-7 col-lg-7 cant">
+                          <span>$400</span>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-5 col-lg-5">
+                          <div class="row pesos">
+                            <span>pesos</span>
+                          </div>
+                          <div class="row">
+                            <div class="col-12 col-lg-12 col-sm-12 porNoche">
+                              <p>por noche</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="cuadroAmarillo">
+                      <div class="row">
+                        <div class="col-12 costoPorPersona">
+                          <ul style="padding-right: 15px">
+                            <li class="cafe">Costo por persona.</li>
+                            <li class="cafe">2 días y 1 noche.</li>
+                            <li class="cafe">Tarifa 2025.</li>
+                            <li class="cafe">Menores de 7 años no pagan.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-12"
+                    style="padding-right: 0px; padding-left: 0px"
+                  >
+                    <div id="cuadroNaranja">
+                      <div class="row">
+                        <div class="col-12 acceso">
+                          <ul>
+                            <li class="blanca">
+                              Entrada 8:00 a.m. / Salida 7:00 p.m. del siguiente
+                              día
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 topIcons tamIcons"
+                >
+                  <div class="col-12 backgroundCafe padding-icon">
+                    <div class="row">
+                      <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                        <div class="row">
+                          <div class="col-4 col-sm-3 col-lg-4">
+                            <img src="../icons/Bt_asador.svg" />
+                          </div>
+                          <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                            <p class="text-icon-title">Asador</p>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                        <div class="row">
+                          <div class="col-4 col-sm-3 col-lg-4">
+                            <img src="../icons/Bt_Basket.svg" />
+                          </div>
+                          <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                            <p class="text-icon-title">Canchas deportivas</p>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                        <div class="row">
+                          <div class="col-4 col-sm-3 col-lg-4">
+                            <img src="../icons/Bt_la_granja.svg" />
+                          </div>
+                          <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                            <p class="text-icon-title">Acceso granja</p>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                        <div class="row">
+                          <div class="col-4 col-sm-3 col-lg-4">
+                            <img src="../icons/Bt_juegos_Infantiles.svg" />
+                          </div>
+                          <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                            <p class="text-icon-title">Juegos infantiles</p>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                        <div class="row">
+                          <div class="col-4 col-sm-3 col-lg-4">
+                            <img src="../icons/Bt_comedor.svg" />
+                          </div>
+                          <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                            <p class="text-icon-title">Bancas</p>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 col-md-4 col-lg-4 padding-icon">
+                        <div class="row">
+                          <div class="col-4 col-sm-3 col-lg-4">
+                            <img src="../icons/Bt_alberca.svg" />
+                          </div>
+                          <div class="col-8 col-sm-9 col-lg-8 aling-vertical">
+                            <p class="text-icon-title">Acceso a Albercas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--- Fin Cuadro Naranja y Amarillo. Iconos --->
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-12 text-center mt-3 footer">
-        <div class="text-footer">
-            Proyecto Agropecuario y Turístico S. de R.L. de C.V.
-        </div>
+      <div class="text-footer">
+        Proyecto Agropecuario y Turístico S. de R.L. de C.V.
+      </div>
     </div>
 
     <div id="Modal_Reglamento" class="modal cerrar_reglamento">
-        <div class="modal-content">
-            <div class="modal-body fondoInferiorCafe margenExterno">
-                <div class="fondoMedioCrema margenModal">
-                    <div class="col-12 col-lg-12 col-xl-12 margenesInternos" id="fondoModal">
-                        <div class="row">
-                            <div class="col-12 col-lg-12 col-xl-12 centrarTitulo">
-                                <h3>Reglamento</h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-lg-6 col-xl-6">
-                                <div class="GothamBold">Acceso a albercas y chapoteadero</div>
-                                <div class="GothamMedium">Horario de albercas y chapoteadero es de 10:00 a.m. a 7:00 p.m.<br>
-                                No se permite el uso de camisetas, ropa de mezclilla o algodón en las albercas.<br>
-                                Es necesario portar ropa apropiada para el uso de la alberca.<br>
-                                No correr cerca de la alberca ni jugar brusco.<br>
-                                No se permiten clavados.<br>
-                                </div>
-                                <br>
-                                <div class="GothamBold">Música</div>
-                                <div class="GothamMedium">La música está permitida de 10:00 a.m. a 10:00 p.m.<br>
-                                Durante el día el volumen de la música debe ser moderado, que solo sea para su campamento.<br>
-                                Está prohibida la música en vivo (grupos musicales, ej. banda).<br>
-                                </div>
-                                <br>
-                                <div class="GothamBold">Motocicletas</div>
-                                <div class="GothamMedium">Horario de uso de motos, ATV’s y UTV’s en pista es de 9:00 a.m. a 7:00p.m.<br>
-                                Solo se permite el uso de motos, ATV’s y UTV’s en la pista.<br>
-                                Por ninguna razón deben transitar as motos a más de 10 km/hr para salir de su campamento a la pista.<br>
-                                </div>
-                                <br>
-                                <div class="GothamBold">Botellas de vidrio</div>
-                                <div class="GothamMedium">No es permitido introducir botellas o recipientes de vidrio en el área de las albercas.
-                                </div>
-                                <br>
-                                <div class="GothamBold">Menores de 12 años</div>
-                                <div class="GothamMedium">Siempre tienen que estar acompañados de un adulto.
-                                </div>
-                                <br>
-                                <div class="GothamBold">No cortar leña</div>
-                                <div class="GothamMedium">No se permite cortar leña, ramas, arbustos, árboles, etc.
-                                </div>
-                                <br>
-                            </div>
-                            
-                            <div class="col-12 col-lg-6 col-xl-6">
-                                <div class="row">
-                                    <div class="col-lg-1" style="padding-left: 0px; padding-right: 0px;">
-                                        <div class="row divide"></div>
-                                    </div>
-                                    <div class="col-lg-10 col-xl-10 padleftandRight0">
-                                        <div class="GothamBold">Pinturas</div>
-                                        <div class="GothamMedium">No se permite el uso de pinturas ni graffiti.
-                                        </div>
-                                        <br>
-                                        <div class="GothamBold">Drogas</div>
-                                        <div class="GothamMedium">No se permite introducir o consumir drogas.
-                                        </div>
-                                        <br>
-                                        <div class="GothamBold">Juegos pirotécnicos</div>
-                                        <div class="GothamMedium">No se permiten juegos pirotécnicos o cohetes.
-                                        </div>
-                                        <br>
-                                        <div class="GothamBold">Armas de fuego</div>
-                                        <div class="GothamMedium">No se permite introducir o detonar armas de fuego, postas, municiones o paintball.
-                                        </div>
-                                        <br>
-                                        <div class="GothamBold">Camping</div>
-                                        <div class="GothamMedium">No se permite acampar o estacionarse en las áreas de cabaña.
-                                        </div>
-                                        <br>
-                                        <div class="GothamBold">Caballos | Ponis</div>
-                                        <div class="GothamMedium">Está prohibido correr o trotar los caballos y/o ponis, solo son para caminar.
-                                        </div>
-                                        <br>
-                                        <div class="GothamBold">Asadores</div>
-                                        <div class="GothamMedium">No se permiten usar 2 asadores al estacionar un solo carro.
-                                        </div>
-                                        <br>
-                                        <div class="GothamBold">Bancas</div>
-                                        <div class="GothamMedium">No se permite mover bancas sin autorización.
-                                        </div>
-                                        <br>
-                                        <div class="GothamBold">Mascotas</div>
-                                        <div class="GothamMedium">El dueño se debe hacer responsable de su mascota. En caso de que persiga a los animales de la granja debe ponerle correa. Dentro de las cabañas las mascotas deben dormir en su camita o jaula. Es su obligación limpiar cualquier área que ensucie su mascota.
-                                            <br>Debe traer su cartilla de vacunación y debe comprobar que está protegido contra las pulgas y garrapatas.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div class="modal-content">
+        <div class="modal-body fondoInferiorCafe margenExterno">
+          <div class="fondoMedioCrema margenModal">
+            <div
+              class="col-12 col-lg-12 col-xl-12 margenesInternos"
+              id="fondoModal"
+            >
+              <div class="row">
+                <div class="col-12 col-lg-12 col-xl-12 centrarTitulo">
+                  <h3>Reglamento</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-6 col-xl-6">
+                  <div class="GothamBold">Acceso a albercas y chapoteadero</div>
+                  <div class="GothamMedium">
+                    Horario de albercas y chapoteadero es de 10:00 a.m. a 7:00
+                    p.m.<br />
+                    No se permite el uso de camisetas, ropa de mezclilla o
+                    algodón en las albercas.<br />
+                    Es necesario portar ropa apropiada para el uso de la
+                    alberca.<br />
+                    No correr cerca de la alberca ni jugar brusco.<br />
+                    No se permiten clavados.<br />
+                  </div>
+                  <br />
+                  <div class="GothamBold">Música</div>
+                  <div class="GothamMedium">
+                    La música está permitida de 10:00 a.m. a 10:00 p.m.<br />
+                    Durante el día el volumen de la música debe ser moderado,
+                    que solo sea para su campamento.<br />
+                    Está prohibida la música en vivo (grupos musicales, ej.
+                    banda).<br />
+                  </div>
+                  <br />
+                  <div class="GothamBold">Motocicletas</div>
+                  <div class="GothamMedium">
+                    Horario de uso de motos, ATV’s y UTV’s en pista es de 9:00
+                    a.m. a 7:00p.m.<br />
+                    Solo se permite el uso de motos, ATV’s y UTV’s en la
+                    pista.<br />
+                    Por ninguna razón deben transitar as motos a más de 10 km/hr
+                    para salir de su campamento a la pista.<br />
+                  </div>
+                  <br />
+                  <div class="GothamBold">Botellas de vidrio</div>
+                  <div class="GothamMedium">
+                    No es permitido introducir botellas o recipientes de vidrio
+                    en el área de las albercas.
+                  </div>
+                  <br />
+                  <div class="GothamBold">Menores de 12 años</div>
+                  <div class="GothamMedium">
+                    Siempre tienen que estar acompañados de un adulto.
+                  </div>
+                  <br />
+                  <div class="GothamBold">No cortar leña</div>
+                  <div class="GothamMedium">
+                    No se permite cortar leña, ramas, arbustos, árboles, etc.
+                  </div>
+                  <br />
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-6">
+                  <div class="row">
+                    <div
+                      class="col-lg-1"
+                      style="padding-left: 0px; padding-right: 0px"
+                    >
+                      <div class="row divide"></div>
                     </div>
+                    <div class="col-lg-10 col-xl-10 padleftandRight0">
+                      <div class="GothamBold">Pinturas</div>
+                      <div class="GothamMedium">
+                        No se permite el uso de pinturas ni graffiti.
+                      </div>
+                      <br />
+                      <div class="GothamBold">Drogas</div>
+                      <div class="GothamMedium">
+                        No se permite introducir o consumir drogas.
+                      </div>
+                      <br />
+                      <div class="GothamBold">Juegos pirotécnicos</div>
+                      <div class="GothamMedium">
+                        No se permiten juegos pirotécnicos o cohetes.
+                      </div>
+                      <br />
+                      <div class="GothamBold">Armas de fuego</div>
+                      <div class="GothamMedium">
+                        No se permite introducir o detonar armas de fuego,
+                        postas, municiones o paintball.
+                      </div>
+                      <br />
+                      <div class="GothamBold">Camping</div>
+                      <div class="GothamMedium">
+                        No se permite acampar o estacionarse en las áreas de
+                        cabaña.
+                      </div>
+                      <br />
+                      <div class="GothamBold">Caballos | Ponis</div>
+                      <div class="GothamMedium">
+                        Está prohibido correr o trotar los caballos y/o ponis,
+                        solo son para caminar.
+                      </div>
+                      <br />
+                      <div class="GothamBold">Asadores</div>
+                      <div class="GothamMedium">
+                        No se permiten usar 2 asadores al estacionar un solo
+                        carro.
+                      </div>
+                      <br />
+                      <div class="GothamBold">Bancas</div>
+                      <div class="GothamMedium">
+                        No se permite mover bancas sin autorización.
+                      </div>
+                      <br />
+                      <div class="GothamBold">Mascotas</div>
+                      <div class="GothamMedium">
+                        El dueño se debe hacer responsable de su mascota. En
+                        caso de que persiga a los animales de la granja debe
+                        ponerle correa. Dentro de las cabañas las mascotas deben
+                        dormir en su camita o jaula. Es su obligación limpiar
+                        cualquier área que ensucie su mascota. <br />Debe traer
+                        su cartilla de vacunación y debe comprobar que está
+                        protegido contra las pulgas y garrapatas.
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-12 col-lg-12 col-xl-12 centrarBotonCierre">
-                    <span class="centrarBotonCierre"><img src="../icons/x_amarilla.svg"></span>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-12 col-lg-12 col-xl-12 centrarBotonCierre">
+            <span class="centrarBotonCierre"
+              ><img src="../icons/x_amarilla.svg"
+            /></span>
+          </div>
         </div>
+      </div>
     </div>
 
     <div id="modalURL" class="modalClipboard animated">
-        <div>
-            <p>URL of page copied to clipboard</p>
-        </div>
+      <div>
+        <p>URL of page copied to clipboard</p>
+      </div>
     </div>
 
     <!--- URL to clipboard --->
-    <script src='../scripts/urlToClipboard.js'></script>
+    <script src="../scripts/urlToClipboard.js"></script>
     <!--Alerts-->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!--- Hover --->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../scripts/funcionalidadCamping.js"></script>
+    <script
+      type="text/javascript"
+      src="../scripts/funcionalidadCamping.js"
+    ></script>
     <script type="text/javascript" src="../scripts/Modals.js"></script>
     <!--- Bootstrap JS --->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper_9", {
-            spaceBetween: 15,
-            slidesPerView: 15,
-            freeMode: true,
-            watchSlidesProgress: true,
-        });
-        var swiper2 = new Swiper(".mySwiper2_9", {
-            spaceBetween: 15,
-            thumbs: {
-                swiper: swiper,
-            },
-        });
+      var swiper = new Swiper(".mySwiper_9", {
+        spaceBetween: 15,
+        slidesPerView: 15,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2_9", {
+        spaceBetween: 15,
+        thumbs: {
+          swiper: swiper,
+        },
+      });
     </script>
-</body>
+  </body>
 </html>
