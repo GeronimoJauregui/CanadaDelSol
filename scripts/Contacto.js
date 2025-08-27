@@ -7,13 +7,18 @@ $(document).ready(function(){
 				email: $("#email").val(),
 				telefono: $("#telefono").val(),
 				mensaje: $("#inputMsg").val(),
-			}).then(function () {
-				$("#nombre").val(""),
-				$("#apellidos").val(""),
-				$("#email").val(""),
-				$("#telefono").val(""),
-				$("#inputMsg").val(""),
-				swal("Enviado"," ", "success");
+				"g-recaptcha-response": grecaptcha.getResponse()
+			}).then(function (respuesta) {
+				if (respuesta.includes("❌")) {
+                    swal("Error", respuesta, "error");
+                } else {
+					$("#nombre").val(""),
+					$("#apellidos").val(""),
+					$("#email").val(""),
+					$("#telefono").val(""),
+					$("#inputMsg").val(""),
+					swal("Enviado"," ", "success");
+				}
 			});
 		}
 	});
